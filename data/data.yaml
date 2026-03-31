@@ -3,4 +3,11 @@ val: ../valid/images
 test: ../test/images
 
 nc: 4
-names: ['glioma', 'meningioma', 'pituitary', 'no_tumor']
+names: ['Glioma', 'Meningioma', 'No Tumor', 'Pituitary']
+
+roboflow:
+  workspace: eksperiment
+  project: brain-tumor-mri-ycidy
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eksperiment/brain-tumor-mri-ycidy/dataset/2
