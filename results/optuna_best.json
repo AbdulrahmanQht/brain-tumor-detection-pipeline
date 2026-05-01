@@ -1,0 +1,26 @@
+{
+  "resnet50": {
+    "best_params": {
+      "learning_rate": 0.0001630759965577081,
+      "dropout_rate": 0.5713236468503577,
+      "batch_size": 64
+    },
+    "best_value": 0.8548584369175929
+  },
+  "mobilenet_v2": {
+    "best_params": {
+      "learning_rate": 4.699294357332021e-05,
+      "dropout_rate": 0.5101086361178914,
+      "batch_size": 64
+    },
+    "best_value": 0.7234606896951662
+  },
+  "efficientnet_b0": {
+    "best_params": {
+      "learning_rate": 1.0795755156251757e-05,
+      "dropout_rate": 0.26573676791956585,
+      "batch_size": 16
+    },
+    "best_value": 0.6325365440511943
+  }
+}

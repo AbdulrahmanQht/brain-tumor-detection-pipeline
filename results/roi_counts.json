@@ -1,0 +1,20 @@
+{
+  "train": {
+    "glioma": 717,
+    "meningioma": 675,
+    "pituitary": 662,
+    "no_tumor": 390
+  },
+  "valid": {
+    "glioma": 338,
+    "meningioma": 307,
+    "pituitary": 286,
+    "no_tumor": 143
+  },
+  "test": {
+    "glioma": 126,
+    "meningioma": 103,
+    "pituitary": 97,
+    "no_tumor": 59
+  }
+}

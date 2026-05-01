@@ -1,0 +1,3852 @@
+[
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 0
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 1
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 2
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": 3
+  }
+]
