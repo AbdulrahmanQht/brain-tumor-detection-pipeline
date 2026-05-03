@@ -36,6 +36,22 @@ class YoloTarget:
     image_path: str
     label_path: str
 
+class _YOLOTransform:
+    """Picklable transform for BrainTumorDataset — module-level for Windows spawn."""
+
+    def __init__(self, image_size: int, augment: bool) -> None:
+        self.image_size = image_size
+        self.augment = augment
+
+    def __call__(
+        self,
+        image: Image.Image,
+        boxes: torch.Tensor,
+    ) -> tuple[torch.Tensor, torch.Tensor]:
+        image = image.resize((self.image_size, self.image_size), Image.BILINEAR)
+        if self.augment:
+            image, boxes = _apply_yolo_augmentation(image, boxes)
+        return _to_tensor(image), boxes
 
 class BrainTumorDataset(Dataset):
     """
@@ -76,19 +92,8 @@ class BrainTumorDataset(Dataset):
         self.augment = split == "train" if augment is None else augment
         self.transform = transform or self._build_transform()
 
-    def _build_transform(
-        self,
-    ) -> Callable[[Image.Image, torch.Tensor], tuple[torch.Tensor, torch.Tensor]]:
-        def transform(
-            image: Image.Image,
-            boxes: torch.Tensor,
-        ) -> tuple[torch.Tensor, torch.Tensor]:
-            image = image.resize((self.image_size, self.image_size), Image.BILINEAR)
-            if self.augment:
-                image, boxes = _apply_yolo_augmentation(image, boxes)
-            return _to_tensor(image), boxes
-
-        return transform
+    def _build_transform(self):
+        return _YOLOTransform(image_size=self.image_size, augment=self.augment)
 
     def __len__(self) -> int:
         return len(self.image_paths)
@@ -109,7 +114,145 @@ class BrainTumorDataset(Dataset):
             "label_path": str(label_path),
         }
         return image_tensor, target
+    
 
+class _ROITransform:
+    """Picklable transform for ROIDataset — defined at module level for Windows spawn."""
+
+    def __init__(self, roi_size: int, augment: bool) -> None:
+        self.roi_size = roi_size
+        self.augment = augment
+
+    def __call__(self, image: Image.Image) -> torch.Tensor:
+        image = image.resize((self.roi_size, self.roi_size), Image.BILINEAR)
+
+        if self.augment:
+            if random.random() < 0.5:
+                image = image.transpose(Image.FLIP_LEFT_RIGHT)
+            if random.random() < 0.5:
+                image = image.transpose(Image.FLIP_TOP_BOTTOM)
+
+            # Wider rotation — tumors appear at any orientation
+            image = image.rotate(random.uniform(-30.0, 30.0), resample=Image.BILINEAR)
+
+            # Random zoom crop — simulates varying scan distances
+            if random.random() < 0.5:
+                scale = random.uniform(0.80, 1.00)
+                new_side = int(self.roi_size * scale)
+                left = random.randint(0, self.roi_size - new_side)
+                top  = random.randint(0, self.roi_size - new_side)
+                image = image.crop((left, top, left + new_side, top + new_side))
+                image = image.resize((self.roi_size, self.roi_size), Image.BILINEAR)
+
+            # Translation — tumor not always centered in crop
+            if random.random() < 0.5:
+                max_shift = int(self.roi_size * 0.10)
+                dx = random.randint(-max_shift, max_shift)
+                dy = random.randint(-max_shift, max_shift)
+                image = image.transform(
+                    image.size,
+                    Image.AFFINE,
+                    (1, 0, dx, 0, 1, dy),
+                    resample=Image.BILINEAR,
+                )
+
+            # Sharpness — MRI scans vary in sharpness across machines
+            if random.random() < 0.5:
+                sharpness = random.uniform(0.5, 2.0)
+                image = ImageEnhance.Sharpness(image).enhance(sharpness)
+
+            # existing brightness/contrast
+            image = ImageEnhance.Brightness(image).enhance(random.uniform(0.8, 1.2))
+            image = ImageEnhance.Contrast(image).enhance(random.uniform(0.8, 1.2))
+
+        tensor = _to_tensor(image)
+
+        if self.augment:
+            # existing Gaussian noise
+            noise = torch.randn_like(tensor) * 0.02
+            tensor = (tensor + noise).clamp(0.0, 1.0)
+            
+            if random.random() < 0.5:
+                tensor = _random_gamma(tensor)
+
+            # Elastic deformation — 40% probability, not too aggressive
+            if random.random() < 0.4:
+                tensor = _elastic_deform(tensor, alpha=15.0, sigma=4.0)
+
+            # Multiple small cutouts instead of one big one
+            if random.random() < 0.5:
+                tensor = _multi_cutout(tensor, n=3, size_ratio=0.08)  # 3 × 8% patches
+
+            # Gaussian blur — keep as is
+            if random.random() < 0.3:
+                kernel_size = random.choice([3, 5])
+                sigma = random.uniform(0.5, 1.5)
+                tensor = _gaussian_blur(tensor, kernel_size, sigma)
+
+            # Cutout — forces model to not rely on single region
+            if random.random() < 0.5:
+                cutout_size = int(self.roi_size * 0.12)
+                cx = random.randint(0, self.roi_size - cutout_size)
+                cy = random.randint(0, self.roi_size - cutout_size)
+                tensor[:, cy:cy + cutout_size, cx:cx + cutout_size] = 0.0
+
+            # Gaussian blur — simulates MRI resolution differences
+            if random.random() < 0.3:
+                kernel_size = random.choice([3, 5])
+                sigma = random.uniform(0.5, 1.5)
+                tensor = _gaussian_blur(tensor, kernel_size, sigma)
+
+        return (tensor - IMAGENET_MEAN) / IMAGENET_STD
+    
+
+def _gaussian_blur(tensor: torch.Tensor, kernel_size: int, sigma: float) -> torch.Tensor:
+        channels = tensor.shape[0]
+        coords = torch.arange(kernel_size, dtype=torch.float32) - kernel_size // 2
+        kernel_1d = torch.exp(-(coords ** 2) / (2 * sigma ** 2))
+        kernel_1d /= kernel_1d.sum()
+        kernel_2d = kernel_1d[:, None] * kernel_1d[None, :]
+        kernel_2d = kernel_2d.expand(channels, 1, kernel_size, kernel_size)
+        padding = kernel_size // 2
+        import torch.nn.functional as F
+        return F.conv2d(tensor.unsqueeze(0), kernel_2d, padding=padding, groups=channels).squeeze(0).clamp(0.0, 1.0)
+    
+def _elastic_deform(tensor: torch.Tensor, alpha: float = 20.0, sigma: float = 5.0) -> torch.Tensor:
+    import torch.nn.functional as F
+    _, h, w = tensor.shape
+    dx = torch.randn(1, 1, h, w) * alpha
+    dy = torch.randn(1, 1, h, w) * alpha
+    # Smooth the displacement fields
+    kernel_size = int(6 * sigma + 1) | 1  # force odd
+    pad = kernel_size // 2
+    k1d = torch.arange(kernel_size, dtype=torch.float32) - pad
+    k1d = torch.exp(-k1d**2 / (2 * sigma**2))
+    k1d /= k1d.sum()
+    k2d = (k1d[:, None] * k1d[None, :]).expand(1, 1, -1, -1)
+    dx = F.conv2d(dx, k2d, padding=pad)
+    dy = F.conv2d(dy, k2d, padding=pad)
+    # Build sampling grid
+    grid_y, grid_x = torch.meshgrid(
+        torch.linspace(-1, 1, h),
+        torch.linspace(-1, 1, w),
+        indexing="ij",
+    )
+    grid_x = (grid_x + dx.squeeze() / w).clamp(-1, 1)
+    grid_y = (grid_y + dy.squeeze() / h).clamp(-1, 1)
+    grid = torch.stack([grid_x, grid_y], dim=-1).unsqueeze(0)
+    return F.grid_sample(tensor.unsqueeze(0), grid, align_corners=True, mode="bilinear", padding_mode="reflection").squeeze(0)
+
+def _random_gamma(tensor: torch.Tensor, low: float = 0.7, high: float = 1.5) -> torch.Tensor:
+    gamma = random.uniform(low, high)
+    return tensor.clamp(1e-8, 1.0).pow(gamma)
+
+def _multi_cutout(tensor: torch.Tensor, n: int = 3, size_ratio: float = 0.08) -> torch.Tensor:
+    _, h, w = tensor.shape
+    cutout_size = int(h * size_ratio)
+    for _ in range(n):
+        cx = random.randint(0, w - cutout_size)
+        cy = random.randint(0, h - cutout_size)
+        tensor[:, cy:cy + cutout_size, cx:cx + cutout_size] = 0.0
+    return tensor
 
 class ROIDataset(Dataset):
     """
@@ -169,34 +312,8 @@ class ROIDataset(Dataset):
         image = Image.open(image_path).convert("RGB")
         return self.transform(image), label
     
-class _ROITransform:
-    """Picklable transform for ROIDataset — defined at module level for Windows spawn."""
 
-    def __init__(self, roi_size: int, augment: bool) -> None:
-        self.roi_size = roi_size
-        self.augment = augment
 
-    def __call__(self, image: Image.Image) -> torch.Tensor:
-        image = image.resize((self.roi_size, self.roi_size), Image.BILINEAR)
-
-        if self.augment:
-            if random.random() < 0.5:
-                image = image.transpose(Image.FLIP_LEFT_RIGHT)
-            if random.random() < 0.5:
-                image = image.transpose(Image.FLIP_TOP_BOTTOM)
-            image = image.rotate(random.uniform(-15.0, 15.0), resample=Image.BILINEAR)
-            brightness = random.uniform(0.8, 1.2)
-            contrast = random.uniform(0.8, 1.2)
-            image = ImageEnhance.Brightness(image).enhance(brightness)
-            image = ImageEnhance.Contrast(image).enhance(contrast)
-
-        tensor = _to_tensor(image)
-
-        if self.augment:
-            noise = torch.randn_like(tensor) * 0.02
-            tensor = (tensor + noise).clamp(0.0, 1.0)
-
-        return (tensor - IMAGENET_MEAN) / IMAGENET_STD
 def read_yolo_label(label_path: str | Path) -> tuple[torch.Tensor, torch.Tensor]:
     """
     Read one YOLO label file.

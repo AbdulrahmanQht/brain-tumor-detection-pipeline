@@ -37,8 +37,8 @@ warnings.filterwarnings("ignore")
 #  CLI
 def parse_args():
     parser = argparse.ArgumentParser(description="Brain Tumor Detection EDA")
-    parser.add_argument("--data", default="./data",
-                        help="Path to dataset root (default: ./data)")
+    parser.add_argument("--data", default="./dataset",
+                        help="Path to dataset root (default: ./dataset)")
     parser.add_argument("--intensity-sample", type=int, default=500,
                         help="Max images sampled for pixel intensity stats (default: 500)")
     return parser.parse_args()

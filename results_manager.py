@@ -25,7 +25,7 @@ from sklearn.metrics import (
 )
 
 from data import DEFAULT_CLASSES, IMAGE_EXTENSIONS, read_yolo_label
-from pipeline_logic import ROIExtractor, TumorClassifier, tensor_to_pil
+from pipeline import ROIExtractor, TumorClassifier, tensor_to_pil, _largest_yolo_box_index
 
 
 class ResultsManager:
@@ -61,7 +61,11 @@ class ResultsManager:
 
                 detections += 1
                 width, height = image.size
-                gt_xyxy = _yolo_xywh_to_xyxy(gt_boxes[0], width, height)
+                if gt_boxes.shape[0] > 1:
+                    best_index = _largest_yolo_box_index(gt_boxes)
+                else:
+                    best_index = 0
+                gt_xyxy = _yolo_xywh_to_xyxy(gt_boxes[best_index], width, height)
                 ious.append(compute_iou(detection.bbox, gt_xyxy))
 
         metrics = {
@@ -191,13 +195,19 @@ class ResultsManager:
         dataset_path = Path(self.config.get("dataset_path", "./dataset/"))
         extractor = ROIExtractor(self.config)
         output_paths: list[Path] = []
-        sample_paths = self._sample_image_paths(dataset_path / "test" / "images", n)
+        sample_paths = self._sample_image_paths(dataset_path / "test" / "images", n * 3)
 
-        for index, image_path in enumerate(sample_paths, start=1):
+        count = 0
+        for image_path in sample_paths:
+            if count >= n:
+                break
             image = Image.open(image_path).convert("RGB")
             label_path = dataset_path / "test" / "labels" / f"{image_path.stem}.txt"
             boxes, labels = read_yolo_label(label_path)
             class_name, crop = extractor._crop_from_labels(image, boxes, labels)
+
+            if class_name is None or crop is None:
+                continue
 
             fig, axes = plt.subplots(1, 2, figsize=(8, 4))
             axes[0].imshow(image)
@@ -208,7 +218,8 @@ class ResultsManager:
             axes[1].axis("off")
             fig.tight_layout()
 
-            output_path = self.figures_dir / f"before_after_{index:02d}.png"
+            count += 1
+            output_path = self.figures_dir / f"before_after_{count:02d}.png"
             fig.savefig(output_path, dpi=200)
             plt.close(fig)
             output_paths.append(output_path)
@@ -301,9 +312,9 @@ class ResultsManager:
         if output_dir is not None:
             output = Path(output_dir)
             output.mkdir(parents=True, exist_ok=True)
-            self._save_json(self.metrics, output / "all_metrics.json")
+            self._save_json(self.metrics, output / "test_pipeline_metrics.json")
         else:
-            self._save_json(self.metrics, self.results_dir / "all_metrics.json")
+            self._save_json(self.metrics, self.results_dir / "test_pipeline_metrics.json")
 
     def _normalize_classifier_inputs(
         self,

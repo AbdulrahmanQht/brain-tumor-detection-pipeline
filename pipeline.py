@@ -23,7 +23,6 @@ from data import (
     read_yolo_label,
 )
 
-
 @dataclass(frozen=True)
 class Detection:
     bbox: tuple[float, float, float, float]
@@ -38,9 +37,14 @@ class ChannelAttention(nn.Module):
         self.mlp = nn.Sequential(
             nn.Conv2d(channels, hidden, kernel_size=1, bias=False),
             nn.ReLU(inplace=True),
-            nn.Conv2d(hidden, channels, kernel_size=1, bias=False),
+            nn.Conv2d(hidden, channels, kernel_size=1, bias=True),
         )
         self.sigmoid = nn.Sigmoid()
+        self._init_identity()
+        
+    def _init_identity(self):
+        nn.init.zeros_(self.mlp[2].weight)
+        nn.init.constant_(self.mlp[2].bias, 4.0)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         avg_out = self.mlp(torch.mean(x, dim=(2, 3), keepdim=True))
@@ -71,6 +75,88 @@ class CBAM(nn.Module):
         x = self.channel_attention(x) * x
         return self.spatial_attention(x) * x
 
+class C2fCBAM(nn.Module):
+    """Drop-in C3k2 replacement with CBAM. Accepts same args as C3k2."""
+    def __init__(self, c1: int, c2: int, n: int = 1, e: float = 0.5) -> None:
+        super().__init__()
+        from ultralytics.nn.modules.block import C3k2
+        self.layer = C3k2(c1, c2, n, c3k=False, e=e)
+        self.cbam = CBAM(c2)   # c2 is always the output channel count
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        return self.cbam(self.layer(x))
+    
+class _C3k2WithCBAM(nn.Module):
+    """C3k2 layer wrapped with CBAM. Instantiated by the patched parse_model."""
+    def __init__(self, c3k2_layer: nn.Module, c2: int) -> None:
+        super().__init__()
+        self.c3k2 = c3k2_layer
+        self.cbam = CBAM(c2)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        return self.cbam(self.c3k2(x))
+    
+    def __getattr__(self, name: str):
+        # Forward any ultralytics metadata lookups (f, i, type, np, stride…)
+        # to the wrapped C3k2 layer, but only AFTER nn.Module's own __getattr__
+        # has already failed (which is what brings us here).
+        try:
+            return super().__getattr__(name)
+        except AttributeError:
+            return getattr(self.c3k2, name)
+
+
+from ultralytics.nn import tasks as _ult_tasks
+
+_orig_parse_model = _ult_tasks.parse_model
+
+def _patched_parse_model(d, ch, verbose=True):
+    """
+    Replace every C2fCBAM entry with C3k2 before handing the config to
+    parse_model (so it handles c1/c2 channel tracking correctly), then
+    wrap the resulting C3k2 layers with CBAM.
+    """
+    from copy import deepcopy
+    d = deepcopy(d)
+
+    # Collect (global_layer_index, c2) for every C2fCBAM layer
+    cbam_positions: list[tuple[int, int]] = []
+    global_idx = 0
+    for section in ("backbone", "head"):
+        for layer_def in d.get(section, []):
+            if len(layer_def) >= 3 and layer_def[2] == "C2fCBAM":
+                c2 = int(layer_def[3][0])           # first YAML arg is c2
+                cbam_positions.append((global_idx, c2))
+                layer_def[2] = "C3k2"               # let parse_model handle it
+            global_idx += 1
+
+    result = _orig_parse_model(d, ch, verbose)      # builds correctly
+
+    if cbam_positions:
+        seq = result[0]  # nn.Sequential of layers
+        keys = list(seq._modules.keys())
+        for layer_idx, c2 in cbam_positions:
+            if layer_idx < len(keys):
+                key = keys[layer_idx]
+                original = seq._modules[key]
+                device = next(original.parameters()).device
+                if not isinstance(original, _C3k2WithCBAM):
+                    wrapper = _C3k2WithCBAM(original, c2).to(device)
+                    # Copy ultralytics routing metadata to the wrapper
+                    for attr in ("f", "i", "type", "np"):
+                        if hasattr(original, attr):
+                            setattr(wrapper, attr, getattr(original, attr))
+                    seq._modules[key] = wrapper
+                
+            print("\n[CBAM] Verification of active layers:")
+            for key, module in seq._modules.items():
+                if isinstance(module, _C3k2WithCBAM):
+                    print(f"  Layer {key}: _C3k2WithCBAM ✓ (CBAM active)")
+            print()
+
+    return result
+
+_ult_tasks.parse_model = _patched_parse_model
 
 class TumorLocator:
     def __init__(self, config: dict[str, Any]) -> None:
@@ -80,13 +166,17 @@ class TumorLocator:
         self.iou_thresh = float(config.get("yolo_iou_thresh", 0.50))
         self.image_size = int(config.get("image_size", 640))
         self.model = self._load_yolo_model(str(config.get("yolo_weights") or self.model_name))
-        if bool(config.get("use_cbam", True)):
-            self._insert_cbam_after_c2f()
+        
 
     def _load_yolo_model(self, model_name: str):
         from ultralytics import YOLO
-
         return YOLO(model_name)
+
+    _CBAM_SAFE_LAYERS: dict[int, int] = {
+        16: 64,    # C3k2 [256→64]
+        19: 128,   # C3k2 [192→128]
+        22: 256,   # C3k2 [384→256]
+    }
 
     def _insert_cbam_after_c2f(self) -> None:
         """
@@ -97,22 +187,22 @@ class TumorLocator:
         modification conservative: only sequential top-level modules with a
         discoverable output channel count are wrapped.
         """
-
         try:
             layers = self.model.model.model
         except AttributeError:
             return
 
-        min_layer_index = int(self.config.get("cbam_min_layer_index", 10))
-        for index, layer in enumerate(list(layers)):
-            if index < min_layer_index:
+        inserted = 0
+        for idx, channels in self._CBAM_SAFE_LAYERS.items():
+            if idx >= len(layers):
                 continue
-            if "C2f" not in layer.__class__.__name__:
-                continue
-            channels = _infer_out_channels(layer)
-            if channels is None:
-                continue
-            layers[index] = nn.Sequential(layer, CBAM(channels))
+            layer = layers[idx]
+            device = next(layer.parameters()).device
+            layers[idx] = C2fCBAM(layer, channels).to(device)
+            inserted += 1
+            print(f"  [CBAM] Wrapped layer {idx} ({layer.__class__.__name__}, out_channels={channels})")
+
+        print(f"  [CBAM] Total modules wrapped: {inserted}")
 
     def train(self, dataloader: Any | None = None) -> Any:
         data_yaml = Path(self.config.get("dataset_path", "./dataset/")) / "data.yaml"
@@ -267,6 +357,43 @@ class ROIExtractor:
         return crop.resize((self.roi_size, self.roi_size), Image.BILINEAR)
 
 
+@dataclass
+class _EarlyStoppingState:
+    patience: int
+    min_delta: float
+    best_loss: float = float("inf")
+    best_epoch: int = 0
+    bad_epochs: int = 0
+    best_state_dict: dict[str, torch.Tensor] | None = None
+
+    def update(self, model: nn.Module, val_loss: float, epoch: int) -> bool:
+        if val_loss < self.best_loss - self.min_delta:
+            self.best_loss = val_loss
+            self.best_epoch = epoch
+            self.bad_epochs = 0
+            self.best_state_dict = {
+                name: tensor.detach().cpu().clone()
+                for name, tensor in model.state_dict().items()
+            }
+            return True
+
+        self.bad_epochs += 1
+        return False
+
+    @property
+    def should_stop(self) -> bool:
+        return self.patience > 0 and self.bad_epochs >= self.patience
+
+    def reset_for_next_stage(self, model: nn.Module) -> None:
+        self.bad_epochs = 0
+        self.best_loss = float("inf")
+        self.best_epoch = self.best_epoch  # preserve for logging
+        self.best_state_dict = {        # snapshot current as Stage 2 baseline
+            k: v.detach().cpu().clone()
+            for k, v in model.state_dict().items()
+        }
+
+
 class TumorClassifier:
     def __init__(self, model_name: str, config: dict[str, Any]) -> None:
         self.model_name = model_name
@@ -307,7 +434,6 @@ class TumorClassifier:
         raise ValueError(f"Unsupported classifier: {self.model_name}")
     
     def _set_frozen_bn_eval(self) -> None:
-        """Keep frozen BatchNorm layers in eval mode to preserve pretrained running stats."""
         for module in self.model.modules():
             if isinstance(module, (nn.BatchNorm2d, nn.BatchNorm1d)):
                 # Only force eval if its parameters are frozen
@@ -326,8 +452,12 @@ class TumorClassifier:
             "val_loss": [],
             "val_acc": [],
         }
+        early_stopping = _EarlyStoppingState(
+            patience=int(self.config.get("classifier_early_stopping_patience", 5)),
+            min_delta=float(self.config.get("classifier_early_stopping_min_delta", 1e-4)),
+        )
 
-        criterion = nn.CrossEntropyLoss(weight=class_weights.to(self.device) if class_weights is not None else None)
+        criterion = nn.CrossEntropyLoss(weight=class_weights.to(self.device) if class_weights is not None else None, label_smoothing=0.1)
         
         print(f"\n{'='*60}")
         print(f"  Training: {self.model_name}")
@@ -335,10 +465,12 @@ class TumorClassifier:
 
 
         self._freeze_backbone()
-        optimizer = torch.optim.Adam(
+        optimizer = torch.optim.AdamW(
             (param for param in self.model.parameters() if param.requires_grad),
             lr=float(self.config.get("learning_rate", 1e-4)),
+            weight_decay=5e-4,
         )
+    
         
         print(f"  Stage 1 — Head training ({self.config.get('head_epochs', 10)} epochs, lr={self.config.get('learning_rate', 1e-4)})")
 
@@ -349,12 +481,15 @@ class TumorClassifier:
             optimizer,
             int(self.config.get("head_epochs", 10)),
             history,
+            early_stopping,
         )
 
         self._unfreeze_top_blocks()
-        optimizer = torch.optim.Adam(
+        early_stopping.reset_for_next_stage(self.model)
+        optimizer = torch.optim.AdamW(
             (param for param in self.model.parameters() if param.requires_grad),
             lr=float(self.config.get("learning_rate_ft", 1e-5)),
+            weight_decay=5e-4,
         )
         
         print(f"  Stage 2 — Fine-tuning ({self.config.get('finetune_epochs', 20)} epochs, lr={self.config.get('learning_rate_ft', 1e-5)})")
@@ -366,7 +501,15 @@ class TumorClassifier:
             optimizer,
             int(self.config.get("finetune_epochs", 20)),
             history,
+            early_stopping,
         )
+        if early_stopping.best_state_dict is not None:
+            self.model.load_state_dict(early_stopping.best_state_dict)
+            print(
+                f"  [{self.model_name}] Restored best validation checkpoint "
+                f"from epoch {early_stopping.best_epoch} "
+                f"(val_loss={early_stopping.best_loss:.4f})"
+            )
         return history
 
     @torch.inference_mode()
@@ -395,7 +538,7 @@ class TumorClassifier:
         )
 
     def load_weights(self, path: str | Path) -> None:
-        checkpoint = torch.load(path, map_location=self.device)
+        checkpoint = torch.load(path, map_location=self.device, weights_only=False)
         state_dict = checkpoint.get("state_dict", checkpoint)
         self.model.load_state_dict(state_dict)
 
@@ -407,8 +550,14 @@ class TumorClassifier:
         optimizer: torch.optim.Optimizer,
         epochs: int,
         history: dict[str, list[float]],
+        early_stopping: _EarlyStoppingState,
     ) -> None:
         total_epochs_so_far = len(history["train_loss"])
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+            optimizer,
+            T_max=epochs,
+            eta_min=optimizer.param_groups[0]['lr'] * 0.01
+        )
         for epoch in range(epochs):
             t0 = time.time()
             train_loss, train_acc = self._run_one_epoch(train_loader, criterion, optimizer)
@@ -418,14 +567,24 @@ class TumorClassifier:
             history["train_acc"].append(train_acc)
             history["val_loss"].append(val_loss)
             history["val_acc"].append(val_acc)
-            
+            absolute_epoch = total_epochs_so_far + epoch + 1
+            improved = early_stopping.update(self.model, val_loss, absolute_epoch)
+            scheduler.step()
             print(
             f"  [{self.model_name}] "
-            f"Epoch {total_epochs_so_far + epoch + 1:>3} | "
+            f"Epoch {absolute_epoch:>3} | "
             f"Train Loss: {train_loss:.4f}  Acc: {train_acc:.4f} | "
             f"Val Loss:   {val_loss:.4f}  Acc: {val_acc:.4f} | "
             f"{elapsed:.1f}s"
         )
+            if improved:
+                print(f"  [{self.model_name}] New best validation checkpoint.")
+            elif early_stopping.should_stop:
+                print(
+                    f"  [{self.model_name}] Early stopping after "
+                    f"{early_stopping.bad_epochs} epochs without validation loss improvement."
+                )
+                break
 
     def _run_one_epoch(
         self,
@@ -446,6 +605,10 @@ class TumorClassifier:
             logits = self.model(images)
             loss = criterion(logits, labels)
             loss.backward()
+            torch.nn.utils.clip_grad_norm_(
+                (p for p in self.model.parameters() if p.requires_grad),
+                max_norm=1.0
+            )
             optimizer.step()
 
             batch_size = labels.size(0)
@@ -503,8 +666,9 @@ class BrainTumorPipeline:
         self.classes = list(config.get("classes", DEFAULT_CLASSES))
         self.locator = TumorLocator(config)
         self.extractor = ROIExtractor(config)
+        pipeline_cfg = {**config, "use_pretrained": False}
         self.classifiers = {
-            model_name: TumorClassifier(model_name, config)
+            model_name: TumorClassifier(model_name, pipeline_cfg)
             for model_name in config.get("classifiers", ["resnet50", "mobilenet_v2", "efficientnet_b0"])
         }
         classifier_weights = config.get("classifier_weights", {})
@@ -544,15 +708,35 @@ class BrainTumorPipeline:
         outputs: list[dict[str, Any]] = []
         for batch in dataloader:
             if isinstance(batch, (list, tuple)) and len(batch) == 2:
-                images, labels = batch
+                images, targets = batch
             else:
-                images, labels = batch, None
+                images, targets = batch, None
 
             for index, image_tensor in enumerate(images):
+                # tensor_to_pil is valid here — YOLO loader returns
+                # plain [0,1] float tensors, not ImageNet-normalized
                 image = tensor_to_pil(image_tensor)
                 result = self.run(image)
-                if labels is not None:
-                    result["target"] = _batch_target_at(labels, index)
+
+                if targets is not None:
+                    target = targets[index] if isinstance(targets, list) else _batch_target_at(targets, index)
+                    # Extract ground truth class from YOLO target dict
+                    if isinstance(target, dict):
+                        labels = target.get("labels")
+                        boxes = target.get("boxes")
+                        if labels is not None and len(labels) > 0:
+                            if boxes is not None and len(boxes) > 0:
+                                # Use largest box as primary ground truth
+                                best_index = _largest_yolo_box_index(boxes)
+                                class_id = int(labels[best_index].item())
+                            else:
+                                class_id = int(labels[0].item())
+                            result["target"] = YOLO_ID_TO_CLASS.get(class_id, "no_tumor")
+                        else:
+                            result["target"] = "no_tumor"
+                    else:
+                        result["target"] = YOLO_ID_TO_CLASS.get(int(target), "no_tumor")
+
                 outputs.append(result)
         return outputs
 

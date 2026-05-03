@@ -8,10 +8,11 @@ from typing import Any
 
 import numpy as np
 import torch
+import optuna
 from sklearn.metrics import f1_score
 
-from data import compute_class_weights, load_roi_dataset, load_yolo_dataset
-from pipeline_logic import BrainTumorPipeline, ROIExtractor, TumorClassifier, TumorLocator
+from data import compute_class_weights, load_roi_dataset, load_yolo_dataset, DEFAULT_CLASSES
+from pipeline import BrainTumorPipeline, ROIExtractor, TumorClassifier, TumorLocator
 
 
 CONFIG: dict[str, Any] = {
@@ -32,10 +33,10 @@ CONFIG: dict[str, Any] = {
     "results_dir": "./results/",
 
     # YOLO
-    "yolo_model": "yolo11n.pt",
+    "yolo_model": "yolo11n-cbam.yaml",
     "yolo_weights": None,
-    "yolo_epochs": 100,
-    "yolo_patience": 20,
+    "yolo_epochs": 150,
+    "yolo_patience": 30,
     "yolo_conf_thresh": 0.45,
     "yolo_iou_thresh": 0.50,
     "yolo_metric": "mAP_0.5:0.95",
@@ -44,15 +45,17 @@ CONFIG: dict[str, Any] = {
 
     # ROI cropping
     "roi_padding": 0.10,
-    "force_rebuild_roi": False,
+    "force_rebuild_roi": True,
 
     # Classifiers
     "classifiers": ["resnet50", "mobilenet_v2", "efficientnet_b0"],
     "batch_size": 32,
-    "learning_rate": 1e-4,
-    "learning_rate_ft": 1e-5,
-    "head_epochs": 10,
-    "finetune_epochs": 20,
+    "learning_rate": 5e-5,
+    "learning_rate_ft": 3e-6,
+    "head_epochs": 15,
+    "finetune_epochs": 40,
+    "classifier_early_stopping_patience": 7,
+    "classifier_early_stopping_min_delta": 1e-4,
     "dropout_rate": 0.4,
     "use_pretrained": True,
     "classifier_weights": {},
@@ -92,7 +95,7 @@ def main(config: dict[str, Any] | None = None) -> dict[str, Any]:
 
     # 1. Train YOLO first
     locator = None
-    if cfg.get("train_yolo", False):
+    if cfg.get("train_yolo", True):
         locator = TumorLocator(cfg)
         artifacts["yolo_results"] = locator.train()
         yolo_path = Path(cfg["weights_dir"]) / "tumor_locator.pt"
@@ -100,7 +103,7 @@ def main(config: dict[str, Any] | None = None) -> dict[str, Any]:
         cfg["yolo_weights"] = str(yolo_path)
 
     # 2. Build ROI dataset from final YOLO weights
-    if cfg.get("build_roi_dataset", False):
+    if cfg.get("build_roi_dataset", True):
         extractor = ROIExtractor(cfg)
         artifacts["roi_counts"] = extractor.build_roi_dataset(
             cfg["dataset_path"],
@@ -110,14 +113,11 @@ def main(config: dict[str, Any] | None = None) -> dict[str, Any]:
         save_json(artifacts["roi_counts"], Path(cfg["results_dir"]) / "roi_counts.json")
 
     # 3. Run Optuna AFTER ROI dataset exists
-    if cfg.get("run_optuna", False):
+    if cfg.get("run_optuna", True):
         artifacts["optuna"] = run_optuna_search(cfg)
 
     # 4. Train all classifiers with their own best params
-    roi_loaders = None
-    if cfg.get("train_classifiers", False):
-        roi_loaders = load_roi_dataset(cfg)
-        train_loader, val_loader, _ = roi_loaders
+    if cfg.get("train_classifiers", True):
         class_weights = build_class_weights(cfg)
         optuna_results = artifacts.get("optuna", {})
 
@@ -144,29 +144,30 @@ def main(config: dict[str, Any] | None = None) -> dict[str, Any]:
             cfg.setdefault("classifier_weights", {})[model_name] = str(weights_path)
 
         save_json(artifacts["histories"], Path(cfg["results_dir"]) / "training_histories.json")
-        save_json(artifacts["classifier_metrics"], Path(cfg["results_dir"]) / "classifier_metrics.json")
+        save_json(artifacts["classifier_metrics"], Path(cfg["results_dir"]) / "validation_classifier_metrics.json")
 
     # 5. Run pipeline on test set
-    if cfg.get("run_pipeline_on_test", False):
-        if roi_loaders is None:
-            roi_loaders = load_roi_dataset(cfg)
-        _, _, test_loader = roi_loaders
+    if cfg.get("run_pipeline_on_test", True):
+        # Must use original dataset loader — full 640×640 MRI scans
+        # NOT the ROI loader which contains already-cropped normalized images
+        yolo_loaders = artifacts.get("yolo_loaders") or load_yolo_dataset(cfg)
+        original_test_loader = yolo_loaders["test"]
+
         pipeline = BrainTumorPipeline(cfg)
-        artifacts["pipeline_predictions"] = pipeline.run_batch(test_loader)
+        artifacts["pipeline_predictions"] = pipeline.run_batch(original_test_loader)
         save_json(
             _json_safe(artifacts["pipeline_predictions"]),
-            Path(cfg["results_dir"]) / "pipeline_predictions.json",
+            Path(cfg["results_dir"]) / "test_pipeline_predictions.json",
         )
 
     # 6. Generate all results
-    if cfg.get("run_results_manager", False):
+    if cfg.get("run_results_manager", True):
         artifacts["results_manager"] = run_results_manager(cfg, artifacts, locator)
 
     save_json(_json_safe(cfg), Path(cfg["results_dir"]) / "config_used.json")
     return artifacts
 
 def run_optuna_search(config: dict[str, Any]) -> dict[str, Any]:
-    import optuna
     optuna.logging.set_verbosity(optuna.logging.WARNING)
 
     all_results: dict[str, Any] = {}
@@ -177,22 +178,35 @@ def run_optuna_search(config: dict[str, Any]) -> dict[str, Any]:
         print(f"{'='*60}")
 
         def objective(trial: optuna.Trial) -> float:
+            total = int(config.get("optuna_trials", 15))
+            print(f"\n{'='*60}")
+            print(f"  Optuna Trial {trial.number + 1}/{total} — {model_name.upper()}")
+            print(f"{'='*60}")
             trial_config = deepcopy(config)
             trial_config.update({
-                "learning_rate":   trial.suggest_float("learning_rate", 1e-5, 1e-3, log=True),
-                "dropout_rate":    trial.suggest_float("dropout_rate", 0.2, 0.6),
+                "learning_rate":   trial.suggest_float("learning_rate", 1e-4, 1e-3, log=True),
+                "dropout_rate":    trial.suggest_float("dropout_rate", 0.35, 0.6),
                 "batch_size":      trial.suggest_categorical("batch_size", [16, 32, 64]),
                 "classifiers":     [model_name],
-                "head_epochs":     5,
-                "finetune_epochs": 5,
+                "head_epochs":     config.get("head_epochs"),
+                "finetune_epochs": config.get("finetune_epochs"),
             })
             train_loader, val_loader, _ = load_roi_dataset(trial_config)
             class_weights = build_class_weights(trial_config)
             classifier = TumorClassifier(model_name, trial_config)
             classifier.train(train_loader, val_loader, class_weights)
-            return evaluate_classifier(classifier, val_loader)["macro_f1"]
+            result = evaluate_classifier(classifier, val_loader)["macro_f1"]
+            
+            trial.report(result, step=0)
+            if trial.should_prune():
+                raise optuna.exceptions.TrialPruned()
+            
+            return result
 
-        study = optuna.create_study(direction="maximize")
+        study = optuna.create_study(
+            direction="maximize",
+            pruner=optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=5)
+        )
         study.optimize(objective, n_trials=int(config.get("optuna_trials", 15)))
 
         all_results[model_name] = {
@@ -244,11 +258,68 @@ def run_results_manager(
         raise RuntimeError("results_manager.py is not ready yet.") from exc
 
     manager = ResultsManager(config)
-    if hasattr(manager, "plot_training_curves") and artifacts.get("histories"):
+
+    # 1. Training curves
+    if artifacts.get("histories"):
         manager.plot_training_curves(artifacts["histories"])
-    if hasattr(manager, "save_all"):
-        manager.save_all(config["results_dir"])
+        print("  [Results] Training curves saved.")
+
+    # 2. Classifier evaluation from pipeline predictions
+    if artifacts.get("pipeline_predictions"):
+        manager.evaluate_classifiers(artifacts["pipeline_predictions"])
+        manager.plot_confusion_matrices()
+        manager.generate_comparative_table()
+        print("  [Results] Classifier metrics, confusion matrices, comparative table saved.")
+
+    # 3. Localization evaluation
+    if locator is not None and artifacts.get("yolo_loaders"):
+        test_loader = artifacts["yolo_loaders"]["test"]
+        manager.evaluate_localization(locator, test_loader)
+        print("  [Results] Localization metrics saved.")
+
+    # 4. Grad-CAM
+    if config.get("run_gradcam", True) and artifacts.get("pipeline_predictions"):
+        roi_images = _collect_roi_images_for_gradcam(artifacts["pipeline_predictions"], config)
+        if roi_images:
+            for model_name in config.get("classifiers", []):
+                weights_path = config.get("classifier_weights", {}).get(model_name)
+                if not weights_path:
+                    continue
+                classifier = TumorClassifier(model_name, config)
+                classifier.load_weights(weights_path)
+                manager.generate_gradcam(classifier, roi_images, n=10)
+            print("  [Results] Grad-CAM heatmaps saved.")
+
+    # 5. Before/after samples
+    manager.plot_before_after_samples(n=5)
+    print("  [Results] Before/after samples saved.")
+
+    # 6. Save all metrics
+    manager.save_all(config["results_dir"])
+    print("  [Results] test_pipeline_metrics.json saved.")
+
     return manager
+
+
+def _collect_roi_images_for_gradcam(
+    pipeline_predictions: list[dict[str, Any]],
+    config: dict[str, Any],
+) -> list[Any]:
+    """Extract ROI crops from saved pipeline predictions for Grad-CAM input."""
+    from PIL import Image as PILImage
+    roi_dataset_path = Path(config.get("roi_dataset_path", "./roi_dataset/")) / "test"
+    classes = [c for c in config.get("classes", DEFAULT_CLASSES) if c != "no_tumor"]
+    images = []
+    for class_name in classes:
+        class_dir = roi_dataset_path / class_name
+        if not class_dir.exists():
+            continue
+        for path in sorted(class_dir.iterdir())[:4]:  # up to 4 per class
+            if path.suffix.lower() in {".jpg", ".jpeg", ".png"}:
+                images.append(PILImage.open(path).convert("RGB"))
+        if len(images) >= 10:
+            break
+    return images[:10]
 
 
 def ensure_directories(config: dict[str, Any]) -> None:
@@ -274,6 +345,8 @@ def set_seed(seed: int) -> None:
     torch.manual_seed(seed)
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
 
 
 def save_json(payload: Any, path: str | Path) -> None:
