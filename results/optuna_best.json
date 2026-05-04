@@ -1,26 +1,29 @@
 {
   "resnet50": {
     "best_params": {
-      "learning_rate": 5.484906610899074e-06,
-      "dropout_rate": 0.4095219190242151,
+      "learning_rate": 0.0003363152954542826,
+      "learning_rate_ft": 4.195604279170323e-05,
+      "dropout_rate": 0.3576240934586068,
       "batch_size": 32
     },
-    "best_value": 0.5314967403612447
+    "best_value": 0.8483862505875603
   },
   "mobilenet_v2": {
     "best_params": {
-      "learning_rate": 6.634670991599306e-06,
-      "dropout_rate": 0.2235460824703711,
-      "batch_size": 32
+      "learning_rate": 0.00020662898651289317,
+      "learning_rate_ft": 4.959895867041909e-05,
+      "dropout_rate": 0.5630104372045635,
+      "batch_size": 16
     },
-    "best_value": 0.3716241655221423
+    "best_value": 0.8752103274832516
   },
   "efficientnet_b0": {
     "best_params": {
-      "learning_rate": 0.00031543523225039636,
-      "dropout_rate": 0.5600489091628607,
-      "batch_size": 32
+      "learning_rate": 0.0003013285862866364,
+      "learning_rate_ft": 2.4981725896784068e-05,
+      "dropout_rate": 0.39675018570327586,
+      "batch_size": 16
     },
-    "best_value": 0.33759212007314
+    "best_value": 0.8531425928433565
   }
 }

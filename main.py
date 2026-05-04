@@ -21,7 +21,7 @@ CONFIG: dict[str, Any] = {
     "roi_size": 224,
     "classes": ["glioma", "meningioma", "pituitary", "no_tumor"],
     "num_classes": 4,
-    "num_workers": 2,
+    "num_workers": 12,
     "pin_memory": torch.cuda.is_available(),
     "seed": 42,
     "device": "cuda" if torch.cuda.is_available() else "cpu",
@@ -34,7 +34,7 @@ CONFIG: dict[str, Any] = {
 
     # YOLO
     "yolo_model": "yolo11n-cbam.yaml",
-    "yolo_weights": None,
+    "yolo_weights": "./weights/tumor_locator.pt",
     "yolo_epochs": 150,
     "yolo_patience": 30,
     "yolo_conf_thresh": 0.45,
@@ -50,10 +50,10 @@ CONFIG: dict[str, Any] = {
     # Classifiers
     "classifiers": ["resnet50", "mobilenet_v2", "efficientnet_b0"],
     "batch_size": 32,
-    "learning_rate": 5e-5,
-    "learning_rate_ft": 3e-6,
+    "learning_rate": 5e-4,
+    "learning_rate_ft": 8e-6,
     "head_epochs": 15,
-    "finetune_epochs": 40,
+    "finetune_epochs": 45,
     "classifier_early_stopping_patience": 7,
     "classifier_early_stopping_min_delta": 1e-4,
     "dropout_rate": 0.4,
@@ -74,7 +74,7 @@ CONFIG: dict[str, Any] = {
     # Optional optimization / reports
     "no_tumor_fallback": True,
     "run_optuna": True,
-    "optuna_trials": 15,
+    "optuna_trials": 10,
     "run_gradcam": True,
 }
 
@@ -101,6 +101,24 @@ def main(config: dict[str, Any] | None = None) -> dict[str, Any]:
         yolo_path = Path(cfg["weights_dir"]) / "tumor_locator.pt"
         locator.save_weights(yolo_path)
         cfg["yolo_weights"] = str(yolo_path)
+    else:
+        weights = cfg.get("yolo_weights")
+        if weights and Path(weights).exists():
+            print(f"  [YOLO] Skipping training — using saved weights: {weights}")
+            locator = TumorLocator(cfg)
+            data_yaml = Path(cfg["dataset_path"]) / "data.yaml"
+            val_results = locator.model.val(
+                data=str(data_yaml),
+                imgsz=cfg.get("image_size", 640),
+                verbose=False,
+            )
+            print(f"  [YOLO] Loaded model validation results:")
+            print(f"    mAP50:     {val_results.box.map50:.4f}")
+            print(f"    mAP50-95:  {val_results.box.map:.4f}")
+            print(f"    Precision: {val_results.box.mp:.4f}")
+            print(f"    Recall:    {val_results.box.mr:.4f}")
+        else:
+            print(f"  [YOLO] WARNING — train_yolo=False but no valid weights found at: {weights}")
 
     # 2. Build ROI dataset from final YOLO weights
     if cfg.get("build_roi_dataset", True):
@@ -165,6 +183,35 @@ def main(config: dict[str, Any] | None = None) -> dict[str, Any]:
         artifacts["results_manager"] = run_results_manager(cfg, artifacts, locator)
 
     save_json(_json_safe(cfg), Path(cfg["results_dir"]) / "config_used.json")
+    print(f"\n{'='*60}")
+    print(f"  FINAL RESULTS SUMMARY")
+    print(f"{'='*60}")
+
+    if artifacts.get("classifier_metrics"):
+        print(f"\n  Classifier Validation Metrics:")
+        for model_name, metrics in artifacts["classifier_metrics"].items():
+            print(f"    {model_name}:")
+            print(f"      Accuracy:    {metrics['accuracy']:.4f}")
+            print(f"      Macro F1:    {metrics['macro_f1']:.4f}")
+            print(f"      Weighted F1: {metrics['weighted_f1']:.4f}")
+
+    if artifacts.get("optuna"):
+        print(f"\n  Optuna Best Results:")
+        for model_name, result in artifacts["optuna"].items():
+            print(f"    {model_name}:")
+            print(f"      Best Macro F1: {result['best_value']:.4f}")
+            print(f"      Best Params:   {result['best_params']}")
+
+    if artifacts.get("yolo_results"):
+        try:
+            yolo_results = artifacts["yolo_results"]
+            print(f"\n  YOLO Results:")
+            print(f"      mAP50:      {yolo_results.box.map50:.4f}")
+            print(f"      mAP50-95:   {yolo_results.box.map:.4f}")
+        except Exception:
+            pass
+
+    print(f"\n{'='*60}\n")
     return artifacts
 
 def run_optuna_search(config: dict[str, Any]) -> dict[str, Any]:
@@ -185,6 +232,7 @@ def run_optuna_search(config: dict[str, Any]) -> dict[str, Any]:
             trial_config = deepcopy(config)
             trial_config.update({
                 "learning_rate":   trial.suggest_float("learning_rate", 1e-4, 1e-3, log=True),
+                "learning_rate_ft": trial.suggest_float("learning_rate_ft", 3e-6, 5e-5, log=True),
                 "dropout_rate":    trial.suggest_float("dropout_rate", 0.35, 0.6),
                 "batch_size":      trial.suggest_categorical("batch_size", [16, 32, 64]),
                 "classifiers":     [model_name],
@@ -195,19 +243,15 @@ def run_optuna_search(config: dict[str, Any]) -> dict[str, Any]:
             class_weights = build_class_weights(trial_config)
             classifier = TumorClassifier(model_name, trial_config)
             classifier.train(train_loader, val_loader, class_weights)
-            result = evaluate_classifier(classifier, val_loader)["macro_f1"]
-            
-            trial.report(result, step=0)
-            if trial.should_prune():
-                raise optuna.exceptions.TrialPruned()
-            
-            return result
+            return evaluate_classifier(classifier, val_loader)["macro_f1"]  # was missing
 
-        study = optuna.create_study(
-            direction="maximize",
-            pruner=optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=5)
-        )
+        study = optuna.create_study(direction="maximize")
         study.optimize(objective, n_trials=int(config.get("optuna_trials", 15)))
+
+        if not study.trials or all(t.state != optuna.trial.TrialState.COMPLETE for t in study.trials):
+            print(f"  Warning: all trials failed for {model_name}, using default config.")
+            all_results[model_name] = {"best_params": {}, "best_value": 0.0}
+            continue
 
         all_results[model_name] = {
             "best_params": study.best_params,

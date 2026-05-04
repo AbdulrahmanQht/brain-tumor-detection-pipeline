@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolo11n-cbam.yaml
-data: dataset\data.yaml
+data: dataset/data.yaml
 epochs: 150
 time: null
 patience: 30
@@ -11,8 +11,8 @@ save: true
 save_period: -1
 cache: false
 device: null
-workers: 2
-project: results\yolo
+workers: 12
+project: results/yolo
 name: tumor_locator
 exist_ok: true
 pretrained: true
@@ -107,4 +107,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\Admin\Desktop\Selected\Project\brain-tumor-detection-pipeline\runs\detect\results\yolo\tumor_locator
+save_dir: /workspace/brain-tumor-detection-pipeline/runs/detect/results/yolo/tumor_locator

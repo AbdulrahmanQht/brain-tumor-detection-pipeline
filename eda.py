@@ -33,7 +33,6 @@ from collections import defaultdict
 import warnings
 warnings.filterwarnings("ignore")
 
-
 #  CLI
 def parse_args():
     parser = argparse.ArgumentParser(description="Brain Tumor Detection EDA")
@@ -42,7 +41,6 @@ def parse_args():
     parser.add_argument("--intensity-sample", type=int, default=500,
                         help="Max images sampled for pixel intensity stats (default: 500)")
     return parser.parse_args()
-
 
 #  CONFIGURATION
 SPLITS           = ["train", "valid", "test"]
@@ -65,7 +63,6 @@ def load_class_names(dataset_root):
     print(f"[INFO] data.yaml not found. Using fallback  : {FALLBACK_CLASSES}")
     return FALLBACK_CLASSES
 
-
 def build_class_colors(class_names):
     """
     Assign colors to classes by name so the mapping survives any class ordering.
@@ -81,7 +78,6 @@ def build_class_colors(class_names):
     grey = "#AAAAAA"
     return [name_to_color.get(n.lower(), grey) for n in class_names]
 
-
 def get_no_tumor_idx(class_names):
     """
     Detect the No Tumor class index dynamically.
@@ -93,7 +89,6 @@ def get_no_tumor_idx(class_names):
         if "no" in tokens and "tumor" in tokens:
             return i
     return None
-
 
 #  HELPER FUNCTIONS
 def get_image_paths(dataset_root, split):
@@ -107,7 +102,6 @@ def get_image_paths(dataset_root, split):
 
 def get_label_path(dataset_root, img_path, split):
     return Path(dataset_root) / split / "labels" / (img_path.stem + ".txt")
-
 
 def parse_label(label_path):
     """
@@ -144,7 +138,6 @@ def parse_label(label_path):
 
                 annotations.append((cls, cx, cy, w, h))
     return annotations
-
 
 def collect_all_data(dataset_root, class_names, no_tumor_idx, intensity_sample=500):
     """
@@ -196,7 +189,6 @@ def collect_all_data(dataset_root, class_names, no_tumor_idx, intensity_sample=5
 
     return records
 
-
 #  SECTION 1: DATASET OVERVIEW
 def section1_overview(records, dataset_root, class_names):
     print("=" * 60)
@@ -228,7 +220,6 @@ def section1_overview(records, dataset_root, class_names):
     print(f"Classes              : {class_names}")
     print(f"Dataset source       : https://universe.roboflow.com/eksperiment/brain-tumor-mri-ycidy/dataset/2")
     print(f"License              : CC BY 4.0")
-
 
 #  SECTION 2: CLASS DISTRIBUTION
 def section2_class_distribution(records, class_names, class_colors, no_tumor_idx):
@@ -288,7 +279,6 @@ def section2_class_distribution(records, class_names, class_colors, no_tumor_idx
     plt.savefig("eda_figs/eda_class_distribution.png", dpi=300, bbox_inches="tight")
     plt.show()
 
-
 #  SECTION 3: IMAGE PROPERTIES
 def section3_image_properties(records):
     print("\n" + "=" * 60)
@@ -297,7 +287,6 @@ def section3_image_properties(records):
     print("  Roboflow pre-processing resized all images to 640x640.")
     channels = [r["channels"] for r in records]
     print(f"Channels — unique values: {sorted(set(channels))}")
-
 
 #  SECTION 4: SAMPLE VISUALIZATION
 def section4_sample_visualization(records, class_names, class_colors, no_tumor_idx):
@@ -356,7 +345,6 @@ def section4_sample_visualization(records, class_names, class_colors, no_tumor_i
     plt.savefig("eda_figs/eda_samples_per_class.png", dpi=300, bbox_inches="tight")
     plt.show()
 
-
 #  SECTION 5: BOUNDING BOX ANALYSIS
 def _kmeans_anchors(box_wh, k=9, iters=300):
     """
@@ -388,7 +376,6 @@ def _kmeans_anchors(box_wh, k=9, iters=300):
 
     areas = anchors[:, 0] * anchors[:, 1]
     return anchors[np.argsort(areas)]
-
 
 def section5_bounding_box_analysis(records, class_names, class_colors):
     print("\n" + "=" * 60)
@@ -486,7 +473,6 @@ def section5_bounding_box_analysis(records, class_names, class_colors):
     plt.savefig("eda_figs/eda_bbox_analysis.png", dpi=300, bbox_inches="tight")
     plt.show()
 
-
 #  SECTION 6: SPLIT SUMMARY
 def section6_split_summary(records, class_names, class_colors, no_tumor_idx):
     print("\n" + "=" * 60)
@@ -530,8 +516,6 @@ def section6_split_summary(records, class_names, class_colors, no_tumor_idx):
     plt.savefig("eda_figs/eda_split_summary.png", dpi=300, bbox_inches="tight")
     plt.show()
 
-
-#  MAIN
 if __name__ == "__main__":
     args         = parse_args()
     DATASET_ROOT = args.data

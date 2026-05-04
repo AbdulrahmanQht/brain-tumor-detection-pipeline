@@ -1,3261 +1,1216 @@
 [
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      172.3208770751953,
+      164.04254150390625,
+      252.76527404785156,
+      230.443115234375
+    ],
+    "yolo_confidence": 0.8921634554862976,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "glioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "no_tumor"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "meningioma"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
-    "target": "pituitary"
-  },
-  {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
-    "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
-    },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      299.3326110839844,
+      162.434814453125,
+      437.1449890136719,
+      235.80795288085938
+    ],
+    "yolo_confidence": 0.7150335907936096,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      320.6956787109375,
+      171.05770874023438,
+      413.6092529296875,
+      257.5235900878906
+    ],
+    "yolo_confidence": 0.9151714444160461,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      170.346923828125,
+      219.9573211669922,
+      263.7337646484375,
+      293.32781982421875
+    ],
+    "yolo_confidence": 0.8766794204711914,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      256.34393310546875,
+      254.17501831054688,
+      293.12957763671875,
+      290.9372863769531
+    ],
+    "yolo_confidence": 0.8526561856269836,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      371.9847717285156,
+      233.95089721679688,
+      459.8216857910156,
+      335.9642639160156
+    ],
+    "yolo_confidence": 0.9131255745887756,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      163.947998046875,
+      199.3776092529297,
+      302.52777099609375,
+      337.02691650390625
+    ],
+    "yolo_confidence": 0.8784120678901672,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      384.22052001953125,
+      251.71920776367188,
+      486.02691650390625,
+      340.8551940917969
+    ],
+    "yolo_confidence": 0.8124204277992249,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      326.37664794921875,
+      322.6213073730469,
+      377.67889404296875,
+      362.6998596191406
+    ],
+    "yolo_confidence": 0.8742411732673645,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      347.7296142578125,
+      238.01307678222656,
+      432.7591552734375,
+      336.1124267578125
+    ],
+    "yolo_confidence": 0.9262557029724121,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      180.77285766601562,
+      116.59123992919922,
+      283.6664733886719,
+      246.48175048828125
+    ],
+    "yolo_confidence": 0.8745080828666687,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      335.29071044921875,
+      168.20993041992188,
+      452.80474853515625,
+      264.5091552734375
+    ],
+    "yolo_confidence": 0.8510687947273254,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      212.86093139648438,
+      143.20071411132812,
+      311.4256896972656,
+      263.2052917480469
+    ],
+    "yolo_confidence": 0.9223365187644958,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      213.6986846923828,
+      164.41729736328125,
+      310.92315673828125,
+      312.42291259765625
+    ],
+    "yolo_confidence": 0.685279905796051,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      340.95574951171875,
+      238.80856323242188,
+      443.57244873046875,
+      340.3257751464844
+    ],
+    "yolo_confidence": 0.901043713092804,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
       "efficientnet_b0": "no_tumor"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      147.54080200195312,
+      227.9453125,
+      260.4601745605469,
+      402.8436279296875
+    ],
+    "yolo_confidence": 0.9181660413742065,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      267.8362121582031,
+      316.40728759765625,
+      341.3578796386719,
+      412.1072998046875
+    ],
+    "yolo_confidence": 0.8680896162986755,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      238.1732177734375,
+      281.51727294921875,
+      338.11187744140625,
+      397.46710205078125
+    ],
+    "yolo_confidence": 0.702883243560791,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      343.0665588378906,
+      100.58726501464844,
+      388.5889587402344,
+      163.12086486816406
+    ],
+    "yolo_confidence": 0.8795704245567322,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      216.2740478515625,
+      129.59918212890625,
+      302.85400390625,
+      231.4219970703125
+    ],
+    "yolo_confidence": 0.8835826516151428,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      314.0475769042969,
+      87.5062255859375,
+      438.7914733886719,
+      217.18984985351562
+    ],
+    "yolo_confidence": 0.8927428126335144,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      399.70245361328125,
+      175.9403076171875,
+      467.98272705078125,
+      265.5190734863281
+    ],
+    "yolo_confidence": 0.91411954164505,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      239.956298828125,
+      178.20455932617188,
+      306.8648681640625,
+      263.2976379394531
+    ],
+    "yolo_confidence": 0.90131014585495,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      202.37994384765625,
+      236.4378662109375,
+      290.2633361816406,
+      349.1241455078125
+    ],
+    "yolo_confidence": 0.8246147036552429,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      236.32310485839844,
+      306.31768798828125,
+      321.976806640625,
+      407.19354248046875
+    ],
+    "yolo_confidence": 0.9414299726486206,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      288.325927734375,
+      475.196533203125,
+      351.589599609375,
+      514.4908447265625
+    ],
+    "yolo_confidence": 0.8423694372177124,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      356.96466064453125,
+      240.12701416015625,
+      438.10186767578125,
+      321.853515625
+    ],
+    "yolo_confidence": 0.8936418294906616,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      249.4150390625,
+      255.9806671142578,
+      345.143310546875,
+      366.86566162109375
+    ],
+    "yolo_confidence": 0.8929528594017029,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "pituitary"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      244.12869262695312,
+      157.87496948242188,
+      313.6528625488281,
+      232.74423217773438
+    ],
+    "yolo_confidence": 0.8927415013313293,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      255.313232421875,
+      161.701416015625,
+      307.32232666015625,
+      227.88394165039062
+    ],
+    "yolo_confidence": 0.8310823440551758,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      353.37933349609375,
+      210.14657592773438,
+      454.63458251953125,
+      294.2903137207031
+    ],
+    "yolo_confidence": 0.8931041955947876,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      229.51473999023438,
+      258.26251220703125,
+      351.2004089355469,
+      328.4437255859375
+    ],
+    "yolo_confidence": 0.9081020355224609,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      320.478271484375,
+      139.48580932617188,
+      412.22418212890625,
+      236.79611206054688
+    ],
+    "yolo_confidence": 0.8975765109062195,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      137.212890625,
+      287.2650146484375,
+      326.80474853515625,
+      425.257568359375
+    ],
+    "yolo_confidence": 0.9453237056732178,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      388.27294921875,
+      206.16348266601562,
+      493.985107421875,
+      291.82440185546875
+    ],
+    "yolo_confidence": 0.8808940649032593,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      282.291015625,
+      72.53736877441406,
+      432.8646240234375,
+      223.34080505371094
+    ],
+    "yolo_confidence": 0.9156307578086853,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      277.2769775390625,
+      71.71832275390625,
+      447.209228515625,
+      224.01400756835938
+    ],
+    "yolo_confidence": 0.9061012864112854,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      306.73687744140625,
+      250.2517547607422,
+      430.92510986328125,
+      360.61651611328125
+    ],
+    "yolo_confidence": 0.9436429142951965,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      197.94741821289062,
+      375.98773193359375,
+      294.5802917480469,
+      473.38250732421875
+    ],
+    "yolo_confidence": 0.8438839912414551,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      419.8409423828125,
+      379.8719482421875,
+      474.5665283203125,
+      440.2039794921875
+    ],
+    "yolo_confidence": 0.9253144264221191,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      396.8299560546875,
+      293.80120849609375,
+      489.9146728515625,
+      413.21295166015625
+    ],
+    "yolo_confidence": 0.8945601582527161,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      170.4697265625,
+      184.712158203125,
+      330.02532958984375,
+      422.60552978515625
+    ],
+    "yolo_confidence": 0.8794220089912415,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      183.43698120117188,
+      275.47906494140625,
+      271.1524963378906,
+      337.93634033203125
+    ],
+    "yolo_confidence": 0.9154585003852844,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      273.9639892578125,
+      173.00192260742188,
+      321.9434814453125,
+      229.25607299804688
+    ],
+    "yolo_confidence": 0.8784782290458679,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      174.09039306640625,
+      238.59979248046875,
+      311.91619873046875,
+      414.88519287109375
+    ],
+    "yolo_confidence": 0.8908738493919373,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      164.75112915039062,
+      227.26303100585938,
+      323.9184875488281,
+      393.4662780761719
+    ],
+    "yolo_confidence": 0.9180936813354492,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      204.261474609375,
+      208.47093200683594,
+      329.74908447265625,
+      318.6502685546875
+    ],
+    "yolo_confidence": 0.9303910136222839,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      233.6243133544922,
+      219.1505126953125,
+      296.80865478515625,
+      307.7998046875
+    ],
+    "yolo_confidence": 0.8229694366455078,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      230.5643310546875,
+      148.1024627685547,
+      340.06658935546875,
+      244.85621643066406
+    ],
+    "yolo_confidence": 0.7144415378570557,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      396.220703125,
+      376.32806396484375,
+      484.148681640625,
+      427.08587646484375
+    ],
+    "yolo_confidence": 0.7516803741455078,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "glioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      342.75189208984375,
+      357.59869384765625,
+      460.07293701171875,
+      472.95086669921875
+    ],
+    "yolo_confidence": 0.9106320738792419,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      307.9488525390625,
+      59.5296630859375,
+      395.545166015625,
+      140.9928436279297
+    ],
+    "yolo_confidence": 0.6643401980400085,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "pituitary",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      239.3813934326172,
+      158.25570678710938,
+      353.95965576171875,
+      277.03546142578125
+    ],
+    "yolo_confidence": 0.9287478923797607,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      216.9976806640625,
+      339.56097412109375,
+      301.3118896484375,
+      403.68780517578125
+    ],
+    "yolo_confidence": 0.8987113833427429,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      372.48260498046875,
+      139.02005004882812,
+      468.78082275390625,
+      247.44326782226562
+    ],
+    "yolo_confidence": 0.9218212962150574,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      214.62045288085938,
+      123.65079498291016,
+      327.5998840332031,
+      246.58822631835938
+    ],
+    "yolo_confidence": 0.9398367404937744,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      337.134033203125,
+      361.0750732421875,
+      408.444580078125,
+      475.7833251953125
+    ],
+    "yolo_confidence": 0.910789966583252,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      323.5631408691406,
+      360.13751220703125,
+      426.5903625488281,
+      459.76226806640625
+    ],
+    "yolo_confidence": 0.9232059121131897,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      322.7559814453125,
+      358.53485107421875,
+      421.68408203125,
+      460.38140869140625
+    ],
+    "yolo_confidence": 0.9272363185882568,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      153.76675415039062,
+      137.39950561523438,
+      293.3288269042969,
+      298.3630676269531
+    ],
+    "yolo_confidence": 0.9135839343070984,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      144.32687377929688,
+      123.26795196533203,
+      316.19146728515625,
+      278.956787109375
+    ],
+    "yolo_confidence": 0.9320310950279236,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
       "efficientnet_b0": "no_tumor"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      148.72457885742188,
+      174.42074584960938,
+      297.3227233886719,
+      311.5562744140625
+    ],
+    "yolo_confidence": 0.9263021349906921,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      196.858154296875,
+      88.83203125,
+      262.6270751953125,
+      149.3966064453125
+    ],
+    "yolo_confidence": 0.9105322360992432,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      350.74871826171875,
+      245.2524871826172,
+      431.68658447265625,
+      315.35040283203125
+    ],
+    "yolo_confidence": 0.8754498958587646,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      202.92547607421875,
+      165.95306396484375,
+      307.1037292480469,
+      273.21368408203125
+    ],
+    "yolo_confidence": 0.9199328422546387,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      175.73526000976562,
+      308.14013671875,
+      244.88919067382812,
+      378.3912353515625
+    ],
+    "yolo_confidence": 0.8696696162223816,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      362.9104919433594,
+      363.52935791015625,
+      451.3564147949219,
+      450.9036865234375
+    ],
+    "yolo_confidence": 0.9144180417060852,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      269.2113037109375,
+      344.3599853515625,
+      360.4327392578125,
+      448.1419677734375
+    ],
+    "yolo_confidence": 0.903253972530365,
     "classification": {
-      "resnet50": "no_tumor",
+      "resnet50": "pituitary",
       "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "efficientnet_b0": "pituitary"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      199.99966430664062,
+      371.6164245605469,
+      247.46597290039062,
+      430.5964050292969
+    ],
+    "yolo_confidence": 0.7904853224754333,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      242.78985595703125,
+      109.3035659790039,
+      338.16583251953125,
+      191.42776489257812
+    ],
+    "yolo_confidence": 0.9159429669380188,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      198.289794921875,
+      143.04165649414062,
+      384.98089599609375,
+      315.2309265136719
+    ],
+    "yolo_confidence": 0.9277286529541016,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      131.10952758789062,
+      311.7327880859375,
+      250.30477905273438,
+      429.6357421875
+    ],
+    "yolo_confidence": 0.9315230250358582,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      412.81280517578125,
+      118.99331665039062,
+      529.1121215820312,
+      210.88339233398438
+    ],
+    "yolo_confidence": 0.9292073249816895,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      427.82635498046875,
+      101.72838592529297,
+      533.4020385742188,
+      208.4261474609375
+    ],
+    "yolo_confidence": 0.9277741312980652,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      229.48402404785156,
+      199.39541625976562,
+      339.8311767578125,
+      316.0894470214844
+    ],
+    "yolo_confidence": 0.9177175164222717,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      335.26611328125,
+      440.93084716796875,
+      423.29541015625,
+      512.5836181640625
+    ],
+    "yolo_confidence": 0.8897650837898254,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      145.79440307617188,
+      182.23477172851562,
+      266.35528564453125,
+      309.7928161621094
+    ],
+    "yolo_confidence": 0.9323087334632874,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      168.43154907226562,
+      203.00180053710938,
+      278.872802734375,
+      306.8895263671875
+    ],
+    "yolo_confidence": 0.9288584589958191,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      361.4947509765625,
+      378.82501220703125,
+      457.2572021484375,
+      466.03118896484375
+    ],
+    "yolo_confidence": 0.9032449126243591,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      396.2467346191406,
+      348.6905822753906,
+      495.6108703613281,
+      469.4424743652344
+    ],
+    "yolo_confidence": 0.902146577835083,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      370.9476318359375,
+      323.6299743652344,
+      492.7486572265625,
+      472.2549743652344
+    ],
+    "yolo_confidence": 0.9042717218399048,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
     },
     "target": "meningioma"
   },
@@ -3610,14 +1565,1114 @@
     "target": "no_tumor"
   },
   {
-    "yolo_bbox": null,
-    "yolo_confidence": null,
+    "yolo_bbox": [
+      226.0457305908203,
+      315.54931640625,
+      313.74749755859375,
+      453.28668212890625
+    ],
+    "yolo_confidence": 0.9049047231674194,
     "classification": {
-      "resnet50": "no_tumor",
-      "mobilenet_v2": "no_tumor",
-      "efficientnet_b0": "no_tumor"
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
     },
     "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      243.38465881347656,
+      341.9595947265625,
+      281.92431640625,
+      387.11346435546875
+    ],
+    "yolo_confidence": 0.7983452677726746,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      294.48077392578125,
+      349.60809326171875,
+      347.14141845703125,
+      395.23638916015625
+    ],
+    "yolo_confidence": 0.8224796652793884,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      286.0753173828125,
+      268.06744384765625,
+      363.71533203125,
+      353.77410888671875
+    ],
+    "yolo_confidence": 0.90581876039505,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      210.84793090820312,
+      346.2427978515625,
+      266.7918395996094,
+      398.8609619140625
+    ],
+    "yolo_confidence": 0.8882364630699158,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      289.60772705078125,
+      326.73114013671875,
+      363.87310791015625,
+      397.55364990234375
+    ],
+    "yolo_confidence": 0.8545228242874146,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      338.5069580078125,
+      273.42681884765625,
+      406.71630859375,
+      338.40570068359375
+    ],
+    "yolo_confidence": 0.887559711933136,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      319.2734375,
+      312.2789001464844,
+      381.67108154296875,
+      412.3081359863281
+    ],
+    "yolo_confidence": 0.8334852457046509,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      338.60009765625,
+      324.07049560546875,
+      400.188232421875,
+      393.45751953125
+    ],
+    "yolo_confidence": 0.8713687658309937,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      334.2325439453125,
+      328.1075439453125,
+      380.1826171875,
+      360.2139892578125
+    ],
+    "yolo_confidence": 0.7900098562240601,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      334.23602294921875,
+      282.04241943359375,
+      389.0811767578125,
+      358.45367431640625
+    ],
+    "yolo_confidence": 0.8902162313461304,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      300.97265625,
+      233.4109344482422,
+      352.2059326171875,
+      283.06512451171875
+    ],
+    "yolo_confidence": 0.9033198952674866,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      312.16876220703125,
+      231.1639404296875,
+      351.92645263671875,
+      278.4325866699219
+    ],
+    "yolo_confidence": 0.8830896615982056,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      299.43634033203125,
+      253.15904235839844,
+      348.7608642578125,
+      303.700927734375
+    ],
+    "yolo_confidence": 0.9316102266311646,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      275.877685546875,
+      207.9632568359375,
+      360.22412109375,
+      288.2460632324219
+    ],
+    "yolo_confidence": 0.8939953446388245,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      309.3846130371094,
+      244.56475830078125,
+      376.5422668457031,
+      296.6729736328125
+    ],
+    "yolo_confidence": 0.8600928783416748,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      280.88580322265625,
+      244.59706115722656,
+      333.90325927734375,
+      288.7359619140625
+    ],
+    "yolo_confidence": 0.8651527762413025,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      303.410400390625,
+      245.614990234375,
+      344.93719482421875,
+      288.2574462890625
+    ],
+    "yolo_confidence": 0.7872580885887146,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      282.3825988769531,
+      327.9483337402344,
+      360.4184265136719,
+      380.5434875488281
+    ],
+    "yolo_confidence": 0.8524063229560852,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      286.1466064453125,
+      279.6695556640625,
+      354.7005615234375,
+      361.608642578125
+    ],
+    "yolo_confidence": 0.8389787673950195,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      300.1966552734375,
+      322.28656005859375,
+      362.361328125,
+      406.1383056640625
+    ],
+    "yolo_confidence": 0.8786259889602661,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      271.52374267578125,
+      291.079833984375,
+      360.72064208984375,
+      431.82562255859375
+    ],
+    "yolo_confidence": 0.8488249778747559,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      357.92010498046875,
+      336.2618103027344,
+      408.99664306640625,
+      421.6283264160156
+    ],
+    "yolo_confidence": 0.8580671548843384,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      351.5993347167969,
+      280.34466552734375,
+      437.0888366699219,
+      371.59893798828125
+    ],
+    "yolo_confidence": 0.9119197130203247,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      167.16322326660156,
+      189.67318725585938,
+      234.63877868652344,
+      249.07638549804688
+    ],
+    "yolo_confidence": 0.8278506994247437,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      145.74124145507812,
+      150.20669555664062,
+      263.73455810546875,
+      270.09027099609375
+    ],
+    "yolo_confidence": 0.8584961295127869,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      347.0738830566406,
+      139.83837890625,
+      407.5873107910156,
+      212.81365966796875
+    ],
+    "yolo_confidence": 0.9158759713172913,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      164.14837646484375,
+      379.3399658203125,
+      219.41326904296875,
+      440.0177001953125
+    ],
+    "yolo_confidence": 0.9244629144668579,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      201.42022705078125,
+      116.15200805664062,
+      345.64825439453125,
+      267.94140625
+    ],
+    "yolo_confidence": 0.8524134159088135,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      420.0173645019531,
+      208.41925048828125,
+      484.9436950683594,
+      259.14471435546875
+    ],
+    "yolo_confidence": 0.8209459781646729,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      414.1693115234375,
+      211.46835327148438,
+      473.4554443359375,
+      269.3048095703125
+    ],
+    "yolo_confidence": 0.9194437861442566,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      279.4591064453125,
+      299.85260009765625,
+      306.25,
+      335.88995361328125
+    ],
+    "yolo_confidence": 0.8369255661964417,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      289.18499755859375,
+      265.09967041015625,
+      364.49310302734375,
+      324.85589599609375
+    ],
+    "yolo_confidence": 0.8653022646903992,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      219.4677734375,
+      146.62332153320312,
+      331.376708984375,
+      277.50360107421875
+    ],
+    "yolo_confidence": 0.9434971809387207,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      238.10321044921875,
+      155.9544677734375,
+      334.4029541015625,
+      238.42156982421875
+    ],
+    "yolo_confidence": 0.8887968063354492,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      244.58705139160156,
+      207.2554168701172,
+      376.675048828125,
+      335.51470947265625
+    ],
+    "yolo_confidence": 0.8891919851303101,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      331.5571594238281,
+      290.106689453125,
+      399.3432312011719,
+      384.0089111328125
+    ],
+    "yolo_confidence": 0.8863443732261658,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      299.46966552734375,
+      155.27151489257812,
+      353.94793701171875,
+      227.39297485351562
+    ],
+    "yolo_confidence": 0.8497812747955322,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      241.54855346679688,
+      142.88034057617188,
+      322.1580505371094,
+      226.82144165039062
+    ],
+    "yolo_confidence": 0.8715580105781555,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      295.0140380859375,
+      268.4010009765625,
+      393.27618408203125,
+      372.24932861328125
+    ],
+    "yolo_confidence": 0.8606472015380859,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      281.89093017578125,
+      366.63958740234375,
+      355.15924072265625,
+      408.8441162109375
+    ],
+    "yolo_confidence": 0.8242596387863159,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      292.2022705078125,
+      395.5553283691406,
+      369.9605712890625,
+      430.2904357910156
+    ],
+    "yolo_confidence": 0.6948369145393372,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      218.552490234375,
+      250.29818725585938,
+      266.5580139160156,
+      314.7252502441406
+    ],
+    "yolo_confidence": 0.8869554400444031,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      190.87002563476562,
+      242.44403076171875,
+      292.01702880859375,
+      335.69232177734375
+    ],
+    "yolo_confidence": 0.9221449494361877,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      383.1631774902344,
+      256.4794921875,
+      501.0077819824219,
+      374.90673828125
+    ],
+    "yolo_confidence": 0.8922245502471924,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      390.870361328125,
+      284.69769287109375,
+      496.46588134765625,
+      367.88067626953125
+    ],
+    "yolo_confidence": 0.8038307428359985,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      292.4513854980469,
+      399.55859375,
+      347.2236022949219,
+      443.6773681640625
+    ],
+    "yolo_confidence": 0.8757715821266174,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      348.88275146484375,
+      194.5057373046875,
+      461.5030517578125,
+      306.0740661621094
+    ],
+    "yolo_confidence": 0.893698513507843,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      342.20361328125,
+      218.90969848632812,
+      402.997802734375,
+      308.7784729003906
+    ],
+    "yolo_confidence": 0.8496837019920349,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      343.14093017578125,
+      233.32235717773438,
+      401.86273193359375,
+      294.2841491699219
+    ],
+    "yolo_confidence": 0.912172257900238,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      317.92388916015625,
+      256.88116455078125,
+      419.86480712890625,
+      339.54522705078125
+    ],
+    "yolo_confidence": 0.814510703086853,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      284.58978271484375,
+      141.21697998046875,
+      383.94873046875,
+      258.52886962890625
+    ],
+    "yolo_confidence": 0.8621759414672852,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      314.71966552734375,
+      181.84371948242188,
+      459.8641357421875,
+      397.8056945800781
+    ],
+    "yolo_confidence": 0.5757138133049011,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      220.736083984375,
+      191.18060302734375,
+      342.44830322265625,
+      288.9975891113281
+    ],
+    "yolo_confidence": 0.8929723501205444,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      284.96771240234375,
+      408.92767333984375,
+      347.32379150390625,
+      458.90802001953125
+    ],
+    "yolo_confidence": 0.8299168944358826,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      256.4957275390625,
+      239.49462890625,
+      364.2275390625,
+      329.4132080078125
+    ],
+    "yolo_confidence": 0.8911271691322327,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      279.09796142578125,
+      160.88418579101562,
+      346.626220703125,
+      226.11492919921875
+    ],
+    "yolo_confidence": 0.8310939073562622,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      318.7882080078125,
+      178.3289337158203,
+      383.40380859375,
+      237.5399932861328
+    ],
+    "yolo_confidence": 0.8875578045845032,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      152.32470703125,
+      254.8468475341797,
+      232.94671630859375,
+      339.86688232421875
+    ],
+    "yolo_confidence": 0.9351252317428589,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      158.91275024414062,
+      259.67266845703125,
+      235.0513916015625,
+      330.91961669921875
+    ],
+    "yolo_confidence": 0.876528263092041,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      196.0535888671875,
+      381.8854064941406,
+      232.8414306640625,
+      422.4530944824219
+    ],
+    "yolo_confidence": 0.826606035232544,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      253.04457092285156,
+      160.54873657226562,
+      331.79541015625,
+      261.9141845703125
+    ],
+    "yolo_confidence": 0.6972915530204773,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      142.5645751953125,
+      179.80813598632812,
+      244.05767822265625,
+      279.7060241699219
+    ],
+    "yolo_confidence": 0.8719594478607178,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      338.8438720703125,
+      172.44818115234375,
+      408.74267578125,
+      263.07196044921875
+    ],
+    "yolo_confidence": 0.7985094785690308,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      263.6644287109375,
+      291.67950439453125,
+      352.98199462890625,
+      405.03662109375
+    ],
+    "yolo_confidence": 0.8883576989173889,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      145.1607666015625,
+      205.47189331054688,
+      249.54278564453125,
+      290.9272155761719
+    ],
+    "yolo_confidence": 0.8684633374214172,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      297.17333984375,
+      310.0499267578125,
+      350.9947509765625,
+      375.979736328125
+    ],
+    "yolo_confidence": 0.8279433846473694,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      153.70358276367188,
+      249.45294189453125,
+      254.38583374023438,
+      343.09295654296875
+    ],
+    "yolo_confidence": 0.8840100169181824,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      313.5912780761719,
+      360.6668701171875,
+      399.9858093261719,
+      474.2186279296875
+    ],
+    "yolo_confidence": 0.8944597840309143,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      245.97409057617188,
+      246.1419219970703,
+      332.5222473144531,
+      333.77557373046875
+    ],
+    "yolo_confidence": 0.8619014024734497,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      290.0035400390625,
+      135.52182006835938,
+      376.4832763671875,
+      291.3301696777344
+    ],
+    "yolo_confidence": 0.6774790287017822,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      272.1356201171875,
+      189.1099853515625,
+      354.24755859375,
+      260.09326171875
+    ],
+    "yolo_confidence": 0.7757654786109924,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      294.9834289550781,
+      277.54901123046875,
+      376.3804016113281,
+      407.93951416015625
+    ],
+    "yolo_confidence": 0.784970760345459,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      254.1458740234375,
+      210.13436889648438,
+      328.73358154296875,
+      294.8500061035156
+    ],
+    "yolo_confidence": 0.5398404598236084,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
   },
   {
     "yolo_bbox": null,
@@ -3627,7 +2682,112 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      322.71954345703125,
+      332.7623291015625,
+      386.07611083984375,
+      385.994384765625
+    ],
+    "yolo_confidence": 0.9166154265403748,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      406.55963134765625,
+      361.65185546875,
+      473.13018798828125,
+      423.1983642578125
+    ],
+    "yolo_confidence": 0.8483946323394775,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      298.8865051269531,
+      317.06292724609375,
+      372.2425231933594,
+      411.25738525390625
+    ],
+    "yolo_confidence": 0.85491943359375,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      162.0419921875,
+      203.427734375,
+      250.1893310546875,
+      283.10284423828125
+    ],
+    "yolo_confidence": 0.8798049688339233,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      162.15625,
+      207.38052368164062,
+      254.35482788085938,
+      276.1151428222656
+    ],
+    "yolo_confidence": 0.8667581677436829,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      367.1800537109375,
+      272.6563720703125,
+      454.622802734375,
+      349.730712890625
+    ],
+    "yolo_confidence": 0.9140034914016724,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      215.0476837158203,
+      99.40196228027344,
+      324.17657470703125,
+      204.4021759033203
+    ],
+    "yolo_confidence": 0.9299623370170593,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
   },
   {
     "yolo_bbox": null,
@@ -3637,7 +2797,52 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      157.4002685546875,
+      176.91256713867188,
+      241.20989990234375,
+      270.0864562988281
+    ],
+    "yolo_confidence": 0.9091335535049438,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      175.8226318359375,
+      215.87261962890625,
+      250.06396484375,
+      268.76507568359375
+    ],
+    "yolo_confidence": 0.6173112392425537,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      186.89227294921875,
+      207.61404418945312,
+      262.0158996582031,
+      279.9055480957031
+    ],
+    "yolo_confidence": 0.8637765049934387,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "glioma"
   },
   {
     "yolo_bbox": null,
@@ -3647,7 +2852,22 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      310.3111572265625,
+      244.88812255859375,
+      470.272705078125,
+      412.723876953125
+    ],
+    "yolo_confidence": 0.8616334199905396,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
   },
   {
     "yolo_bbox": null,
@@ -3657,7 +2877,202 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      305.96343994140625,
+      237.93569946289062,
+      382.29693603515625,
+      345.0088806152344
+    ],
+    "yolo_confidence": 0.6440837979316711,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      236.64321899414062,
+      142.78536987304688,
+      305.6377258300781,
+      234.42959594726562
+    ],
+    "yolo_confidence": 0.8717665076255798,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      428.7059020996094,
+      405.09100341796875,
+      460.4568176269531,
+      446.3792724609375
+    ],
+    "yolo_confidence": 0.744461715221405,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      414.16705322265625,
+      395.46917724609375,
+      467.07696533203125,
+      462.90692138671875
+    ],
+    "yolo_confidence": 0.8755242824554443,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      296.62530517578125,
+      217.1083984375,
+      344.572021484375,
+      250.98260498046875
+    ],
+    "yolo_confidence": 0.6769767999649048,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      323.208740234375,
+      182.799072265625,
+      442.839111328125,
+      293.939697265625
+    ],
+    "yolo_confidence": 0.8763670325279236,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      324.4346923828125,
+      185.244140625,
+      466.083251953125,
+      306.476318359375
+    ],
+    "yolo_confidence": 0.8196044564247131,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      199.40603637695312,
+      158.466552734375,
+      279.7657470703125,
+      228.69183349609375
+    ],
+    "yolo_confidence": 0.8706806898117065,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      194.07354736328125,
+      310.4019775390625,
+      307.39910888671875,
+      421.1451416015625
+    ],
+    "yolo_confidence": 0.9383857846260071,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      230.79798889160156,
+      171.07305908203125,
+      388.539794921875,
+      268.0166015625
+    ],
+    "yolo_confidence": 0.7235958576202393,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      168.84671020507812,
+      251.84616088867188,
+      305.3017578125,
+      402.6164245605469
+    ],
+    "yolo_confidence": 0.9386328458786011,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      309.9276123046875,
+      166.64224243164062,
+      367.75067138671875,
+      219.96365356445312
+    ],
+    "yolo_confidence": 0.8061439394950867,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
+  },
+  {
+    "yolo_bbox": [
+      345.29254150390625,
+      350.7799072265625,
+      456.46978759765625,
+      491.4114990234375
+    ],
+    "yolo_confidence": 0.9350024461746216,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "glioma"
   },
   {
     "yolo_bbox": null,
@@ -3667,7 +3082,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3677,7 +3092,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3687,7 +3102,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3697,7 +3112,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3707,7 +3122,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3717,7 +3132,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3727,7 +3142,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3737,7 +3152,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3747,7 +3162,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3757,7 +3172,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3767,7 +3182,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3777,7 +3192,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3787,7 +3202,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3797,7 +3212,17 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3807,7 +3232,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3817,7 +3242,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3827,7 +3252,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3837,7 +3262,7 @@
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
     },
-    "target": "pituitary"
+    "target": "no_tumor"
   },
   {
     "yolo_bbox": null,
@@ -3846,6 +3271,2181 @@
       "resnet50": "no_tumor",
       "mobilenet_v2": "no_tumor",
       "efficientnet_b0": "no_tumor"
+    },
+    "target": "no_tumor"
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "no_tumor"
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "no_tumor"
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "no_tumor"
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "no_tumor"
+  },
+  {
+    "yolo_bbox": [
+      224.16094970703125,
+      221.63958740234375,
+      281.0089111328125,
+      347.22979736328125
+    ],
+    "yolo_confidence": 0.8125385046005249,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      155.06289672851562,
+      322.0066833496094,
+      258.41021728515625,
+      464.3520202636719
+    ],
+    "yolo_confidence": 0.9037322402000427,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      242.0336456298828,
+      223.67449951171875,
+      328.48309326171875,
+      324.358154296875
+    ],
+    "yolo_confidence": 0.9198126792907715,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      247.25489807128906,
+      237.97366333007812,
+      343.105224609375,
+      348.4249572753906
+    ],
+    "yolo_confidence": 0.9095397591590881,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      231.94097900390625,
+      396.2943115234375,
+      297.8575439453125,
+      480.9893798828125
+    ],
+    "yolo_confidence": 0.8897607922554016,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      228.5238800048828,
+      391.6607666015625,
+      298.20294189453125,
+      480.609130859375
+    ],
+    "yolo_confidence": 0.8812642097473145,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      411.16943359375,
+      197.61795043945312,
+      492.269287109375,
+      279.83282470703125
+    ],
+    "yolo_confidence": 0.8966653347015381,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      335.1707763671875,
+      181.62303161621094,
+      483.9232177734375,
+      369.8787841796875
+    ],
+    "yolo_confidence": 0.9105446338653564,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      228.02317810058594,
+      374.90924072265625,
+      321.885009765625,
+      467.84454345703125
+    ],
+    "yolo_confidence": 0.9171985387802124,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      252.88446044921875,
+      365.30938720703125,
+      337.3509521484375,
+      444.80731201171875
+    ],
+    "yolo_confidence": 0.8969922661781311,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      278.57501220703125,
+      178.34756469726562,
+      410.49383544921875,
+      294.43731689453125
+    ],
+    "yolo_confidence": 0.9194753170013428,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      310.24468994140625,
+      213.938232421875,
+      388.70849609375,
+      299.9970703125
+    ],
+    "yolo_confidence": 0.9093950390815735,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      234.24229431152344,
+      345.78765869140625,
+      315.585693359375,
+      420.50830078125
+    ],
+    "yolo_confidence": 0.8388743996620178,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      402.9874572753906,
+      219.9874267578125,
+      475.1965637207031,
+      299.990234375
+    ],
+    "yolo_confidence": 0.8595568537712097,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      391.83551025390625,
+      380.5535583496094,
+      447.96942138671875,
+      435.4224548339844
+    ],
+    "yolo_confidence": 0.8902552127838135,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      391.5849609375,
+      294.2967529296875,
+      545.4969482421875,
+      485.28466796875
+    ],
+    "yolo_confidence": 0.9121882319450378,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      43.62298583984375,
+      134.32870483398438,
+      288.69256591796875,
+      359.37298583984375
+    ],
+    "yolo_confidence": 0.9069843292236328,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      201.9796905517578,
+      378.3302001953125,
+      386.59039306640625,
+      521.7428588867188
+    ],
+    "yolo_confidence": 0.9183119535446167,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      367.37506103515625,
+      211.0400390625,
+      536.5087890625,
+      342.81207275390625
+    ],
+    "yolo_confidence": 0.9220800995826721,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      314.2310791015625,
+      160.22430419921875,
+      462.06591796875,
+      351.7314147949219
+    ],
+    "yolo_confidence": 0.9324377179145813,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      376.9586181640625,
+      195.40760803222656,
+      521.1725463867188,
+      368.19287109375
+    ],
+    "yolo_confidence": 0.9142287373542786,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      329.2620849609375,
+      194.34097290039062,
+      474.43017578125,
+      327.3977966308594
+    ],
+    "yolo_confidence": 0.8868069052696228,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      356.1012268066406,
+      211.4466552734375,
+      482.1606140136719,
+      357.016357421875
+    ],
+    "yolo_confidence": 0.824798583984375,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      424.2983703613281,
+      116.03173828125,
+      606.155517578125,
+      375.81640625
+    ],
+    "yolo_confidence": 0.7967654466629028,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      320.427734375,
+      225.2447052001953,
+      390.878662109375,
+      319.24798583984375
+    ],
+    "yolo_confidence": 0.841261088848114,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      286.29150390625,
+      304.7442626953125,
+      400.27838134765625,
+      424.12615966796875
+    ],
+    "yolo_confidence": 0.9105405807495117,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      353.73974609375,
+      390.5810546875,
+      532.1754150390625,
+      555.0540161132812
+    ],
+    "yolo_confidence": 0.9039731621742249,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      297.09326171875,
+      342.970458984375,
+      394.882568359375,
+      428.2467041015625
+    ],
+    "yolo_confidence": 0.8609726428985596,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      288.693359375,
+      329.57550048828125,
+      417.86761474609375,
+      436.79486083984375
+    ],
+    "yolo_confidence": 0.9174782037734985,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      280.78753662109375,
+      240.89370727539062,
+      342.760498046875,
+      298.0913391113281
+    ],
+    "yolo_confidence": 0.852664589881897,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      329.02154541015625,
+      291.0244445800781,
+      425.13787841796875,
+      381.5359802246094
+    ],
+    "yolo_confidence": 0.923151969909668,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      390.2161865234375,
+      357.53070068359375,
+      447.04443359375,
+      411.07098388671875
+    ],
+    "yolo_confidence": 0.8649691343307495,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      297.71630859375,
+      291.69927978515625,
+      388.68316650390625,
+      385.12506103515625
+    ],
+    "yolo_confidence": 0.9156326651573181,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": null,
+    "yolo_confidence": null,
+    "classification": {
+      "resnet50": "no_tumor",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      142.49978637695312,
+      141.01974487304688,
+      265.9663391113281,
+      278.13507080078125
+    ],
+    "yolo_confidence": 0.9139775037765503,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      248.29054260253906,
+      152.77813720703125,
+      328.2137451171875,
+      238.49420166015625
+    ],
+    "yolo_confidence": 0.8944668769836426,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      223.7010498046875,
+      361.2856140136719,
+      312.57763671875,
+      452.7945861816406
+    ],
+    "yolo_confidence": 0.8804115653038025,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      214.45767211914062,
+      356.31732177734375,
+      319.9186706542969,
+      463.54931640625
+    ],
+    "yolo_confidence": 0.9248295426368713,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      231.10011291503906,
+      81.14875793457031,
+      327.6878662109375,
+      182.5511932373047
+    ],
+    "yolo_confidence": 0.9195923805236816,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      179.37039184570312,
+      388.43292236328125,
+      266.2457275390625,
+      464.07403564453125
+    ],
+    "yolo_confidence": 0.8780435919761658,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      265.75750732421875,
+      151.46585083007812,
+      355.38714599609375,
+      255.29104614257812
+    ],
+    "yolo_confidence": 0.9030437469482422,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      234.5235595703125,
+      90.72503662109375,
+      336.31622314453125,
+      192.075439453125
+    ],
+    "yolo_confidence": 0.9248413443565369,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      385.6120300292969,
+      157.70382690429688,
+      416.0452575683594,
+      186.6484375
+    ],
+    "yolo_confidence": 0.7916855216026306,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      251.26611328125,
+      315.791015625,
+      312.3551025390625,
+      365.6474609375
+    ],
+    "yolo_confidence": 0.8839558959007263,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      171.08950805664062,
+      75.2881851196289,
+      321.5345458984375,
+      212.61434936523438
+    ],
+    "yolo_confidence": 0.9196927547454834,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      168.35952758789062,
+      72.05864715576172,
+      328.79156494140625,
+      216.71533203125
+    ],
+    "yolo_confidence": 0.9254345297813416,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      390.9024658203125,
+      358.833251953125,
+      463.4010009765625,
+      427.9129638671875
+    ],
+    "yolo_confidence": 0.8693029284477234,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      393.5662841796875,
+      359.3680419921875,
+      462.53509521484375,
+      424.1585693359375
+    ],
+    "yolo_confidence": 0.8868153691291809,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      189.70376586914062,
+      250.45620727539062,
+      364.0231018066406,
+      381.8766174316406
+    ],
+    "yolo_confidence": 0.9081920981407166,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      281.42608642578125,
+      167.79586791992188,
+      416.18896484375,
+      300.435791015625
+    ],
+    "yolo_confidence": 0.9296987056732178,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      213.07766723632812,
+      271.7593994140625,
+      291.1540832519531,
+      323.6810302734375
+    ],
+    "yolo_confidence": 0.7722560167312622,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      237.93081665039062,
+      104.58594512939453,
+      362.0757141113281,
+      272.01153564453125
+    ],
+    "yolo_confidence": 0.9078797101974487,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      142.36477661132812,
+      150.808349609375,
+      246.23440551757812,
+      234.74102783203125
+    ],
+    "yolo_confidence": 0.9128270745277405,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      370.9417724609375,
+      96.76248931884766,
+      501.5653076171875,
+      213.72647094726562
+    ],
+    "yolo_confidence": 0.9267992377281189,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      218.73760986328125,
+      258.21551513671875,
+      317.23046875,
+      355.563720703125
+    ],
+    "yolo_confidence": 0.9062336683273315,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      65.17214965820312,
+      214.86651611328125,
+      314.3437805175781,
+      412.69647216796875
+    ],
+    "yolo_confidence": 0.9200177788734436,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      277.79425048828125,
+      87.91094207763672,
+      490.36419677734375,
+      339.24334716796875
+    ],
+    "yolo_confidence": 0.8701426982879639,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      391.0519104003906,
+      308.6780090332031,
+      467.2614440917969,
+      377.5377502441406
+    ],
+    "yolo_confidence": 0.8998755216598511,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      201.72854614257812,
+      288.345703125,
+      292.5680236816406,
+      375.49169921875
+    ],
+    "yolo_confidence": 0.889843761920929,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      200.90599060058594,
+      116.16608428955078,
+      345.568359375,
+      283.84442138671875
+    ],
+    "yolo_confidence": 0.9403181076049805,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      190.01756286621094,
+      121.64712524414062,
+      352.7012939453125,
+      293.1015319824219
+    ],
+    "yolo_confidence": 0.9283086061477661,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      255.0308074951172,
+      149.12570190429688,
+      441.84478759765625,
+      316.5350646972656
+    ],
+    "yolo_confidence": 0.9052937030792236,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      402.0542297363281,
+      326.25372314453125,
+      495.5572204589844,
+      392.6873779296875
+    ],
+    "yolo_confidence": 0.888511061668396,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      286.329833984375,
+      345.4193115234375,
+      375.896240234375,
+      463.83258056640625
+    ],
+    "yolo_confidence": 0.8805263638496399,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      193.61497497558594,
+      332.6116943359375,
+      344.026123046875,
+      418.7598876953125
+    ],
+    "yolo_confidence": 0.7507510781288147,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      443.139892578125,
+      131.450439453125,
+      499.6097412109375,
+      184.57205200195312
+    ],
+    "yolo_confidence": 0.863187849521637,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      212.18338012695312,
+      184.12637329101562,
+      321.5672302246094,
+      275.5090637207031
+    ],
+    "yolo_confidence": 0.9046640992164612,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      377.4820861816406,
+      138.24501037597656,
+      479.0228576660156,
+      241.25807189941406
+    ],
+    "yolo_confidence": 0.9306549429893494,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      336.00823974609375,
+      76.84208679199219,
+      440.46051025390625,
+      176.70294189453125
+    ],
+    "yolo_confidence": 0.9234394431114197,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      340.12994384765625,
+      200.22238159179688,
+      430.46978759765625,
+      271.7445373535156
+    ],
+    "yolo_confidence": 0.9135863184928894,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "meningioma"
+  },
+  {
+    "yolo_bbox": [
+      293.7825927734375,
+      256.74658203125,
+      350.790283203125,
+      299.82867431640625
+    ],
+    "yolo_confidence": 0.846371054649353,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      297.77069091796875,
+      309.7286682128906,
+      364.72772216796875,
+      389.9554138183594
+    ],
+    "yolo_confidence": 0.8609479665756226,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      294.31427001953125,
+      311.26904296875,
+      362.24017333984375,
+      358.4228515625
+    ],
+    "yolo_confidence": 0.8369617462158203,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      295.7507019042969,
+      222.01611328125,
+      360.7068176269531,
+      273.781005859375
+    ],
+    "yolo_confidence": 0.9288976192474365,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      295.2071228027344,
+      222.18804931640625,
+      360.4570617675781,
+      273.652099609375
+    ],
+    "yolo_confidence": 0.9357709288597107,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      259.38934326171875,
+      216.48983764648438,
+      374.74322509765625,
+      352.1288146972656
+    ],
+    "yolo_confidence": 0.9091445803642273,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      276.14263916015625,
+      237.07498168945312,
+      330.31097412109375,
+      290.3884582519531
+    ],
+    "yolo_confidence": 0.8005727529525757,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      269.3238525390625,
+      290.61358642578125,
+      357.2520751953125,
+      386.065185546875
+    ],
+    "yolo_confidence": 0.8867031335830688,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      293.25311279296875,
+      246.2059326171875,
+      353.38311767578125,
+      300.0194091796875
+    ],
+    "yolo_confidence": 0.8714147806167603,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      254.07174682617188,
+      357.9718933105469,
+      296.1147155761719,
+      408.3363342285156
+    ],
+    "yolo_confidence": 0.8186869621276855,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      251.10552978515625,
+      349.85198974609375,
+      294.8258056640625,
+      407.81048583984375
+    ],
+    "yolo_confidence": 0.8637092709541321,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      199.71463012695312,
+      268.64385986328125,
+      279.65032958984375,
+      380.74676513671875
+    ],
+    "yolo_confidence": 0.919344961643219,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      204.35430908203125,
+      300.61993408203125,
+      282.9192810058594,
+      369.79937744140625
+    ],
+    "yolo_confidence": 0.8468830585479736,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      218.92120361328125,
+      314.0523681640625,
+      269.09844970703125,
+      361.4954833984375
+    ],
+    "yolo_confidence": 0.9094945788383484,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      242.97955322265625,
+      305.3070068359375,
+      282.24920654296875,
+      340.04693603515625
+    ],
+    "yolo_confidence": 0.8218944072723389,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      239.57493591308594,
+      381.72509765625,
+      278.0206298828125,
+      419.44097900390625
+    ],
+    "yolo_confidence": 0.8749456405639648,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      271.4681396484375,
+      230.88267517089844,
+      351.8653564453125,
+      314.4195556640625
+    ],
+    "yolo_confidence": 0.9301479458808899,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      300.6134948730469,
+      309.5960693359375,
+      340.9758605957031,
+      348.42041015625
+    ],
+    "yolo_confidence": 0.8351883888244629,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      288.91015625,
+      217.11862182617188,
+      373.04486083984375,
+      310.4372863769531
+    ],
+    "yolo_confidence": 0.9049603939056396,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      283.7783203125,
+      335.1153869628906,
+      358.734130859375,
+      450.9253845214844
+    ],
+    "yolo_confidence": 0.9079071283340454,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      218.89541625976562,
+      325.04730224609375,
+      269.2423400878906,
+      363.19000244140625
+    ],
+    "yolo_confidence": 0.9044061899185181,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      275.3158264160156,
+      286.38153076171875,
+      320.0445251464844,
+      345.66522216796875
+    ],
+    "yolo_confidence": 0.8693825006484985,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      236.3494873046875,
+      343.62005615234375,
+      298.4644775390625,
+      419.65118408203125
+    ],
+    "yolo_confidence": 0.9148611426353455,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      225.10086059570312,
+      289.2104187011719,
+      300.2891540527344,
+      410.1167907714844
+    ],
+    "yolo_confidence": 0.9035760760307312,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      272.8653564453125,
+      280.219970703125,
+      361.99688720703125,
+      394.96728515625
+    ],
+    "yolo_confidence": 0.9187225699424744,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "no_tumor",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      275.775634765625,
+      291.0570068359375,
+      362.384521484375,
+      382.01678466796875
+    ],
+    "yolo_confidence": 0.9218023419380188,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      267.3899230957031,
+      314.66265869140625,
+      365.7687683105469,
+      430.94525146484375
+    ],
+    "yolo_confidence": 0.917641818523407,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      261.4415283203125,
+      305.59808349609375,
+      315.2310791015625,
+      380.09454345703125
+    ],
+    "yolo_confidence": 0.8313658833503723,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      267.7728271484375,
+      295.3443603515625,
+      309.246337890625,
+      348.1502685546875
+    ],
+    "yolo_confidence": 0.8397073745727539,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      248.90032958984375,
+      350.18798828125,
+      291.6861572265625,
+      397.5621337890625
+    ],
+    "yolo_confidence": 0.8865346312522888,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      207.96414184570312,
+      308.96923828125,
+      280.6110534667969,
+      411.2884521484375
+    ],
+    "yolo_confidence": 0.8888490200042725,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      242.13917541503906,
+      322.8091735839844,
+      301.4876708984375,
+      396.0344543457031
+    ],
+    "yolo_confidence": 0.841611921787262,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      259.29083251953125,
+      329.28619384765625,
+      306.5938720703125,
+      360.05670166015625
+    ],
+    "yolo_confidence": 0.8151237964630127,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      270.5634460449219,
+      341.3236083984375,
+      318.4668273925781,
+      403.906005859375
+    ],
+    "yolo_confidence": 0.45863446593284607,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      236.52105712890625,
+      288.09765625,
+      289.87445068359375,
+      357.7509765625
+    ],
+    "yolo_confidence": 0.8809173107147217,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      296.3834228515625,
+      281.88446044921875,
+      353.1962890625,
+      342.07562255859375
+    ],
+    "yolo_confidence": 0.8309940099716187,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      277.6864013671875,
+      330.095458984375,
+      346.82879638671875,
+      396.9700927734375
+    ],
+    "yolo_confidence": 0.7909536957740784,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      267.9501037597656,
+      290.96270751953125,
+      321.8158264160156,
+      360.33319091796875
+    ],
+    "yolo_confidence": 0.7633928656578064,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      293.2584228515625,
+      412.5,
+      366.50140380859375,
+      455.7628173828125
+    ],
+    "yolo_confidence": 0.7587962746620178,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      290.87542724609375,
+      282.1072998046875,
+      360.94525146484375,
+      373.78021240234375
+    ],
+    "yolo_confidence": 0.8601643443107605,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      285.31842041015625,
+      219.80050659179688,
+      358.41571044921875,
+      289.97735595703125
+    ],
+    "yolo_confidence": 0.880501925945282,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      292.7894287109375,
+      259.57647705078125,
+      347.94482421875,
+      312.097412109375
+    ],
+    "yolo_confidence": 0.8092705011367798,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      274.2585754394531,
+      205.37741088867188,
+      329.2341613769531,
+      248.46353149414062
+    ],
+    "yolo_confidence": 0.750386118888855,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      240.40530395507812,
+      345.318359375,
+      291.3367614746094,
+      391.48779296875
+    ],
+    "yolo_confidence": 0.8464751243591309,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      215.8194580078125,
+      350.2305908203125,
+      269.47430419921875,
+      395.6572265625
+    ],
+    "yolo_confidence": 0.900082528591156,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      248.19491577148438,
+      319.10894775390625,
+      310.2320861816406,
+      379.1595458984375
+    ],
+    "yolo_confidence": 0.8867499828338623,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      211.9119873046875,
+      353.00701904296875,
+      290.6600646972656,
+      454.84075927734375
+    ],
+    "yolo_confidence": 0.8974642157554626,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "glioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      269.9205322265625,
+      236.47203063964844,
+      336.24530029296875,
+      284.5108642578125
+    ],
+    "yolo_confidence": 0.8768364787101746,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      280.9791564941406,
+      239.12399291992188,
+      325.7500915527344,
+      291.0528869628906
+    ],
+    "yolo_confidence": 0.8860380053520203,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      281.81292724609375,
+      211.85662841796875,
+      353.83624267578125,
+      272.0099792480469
+    ],
+    "yolo_confidence": 0.8374645113945007,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      283.7220458984375,
+      218.55267333984375,
+      343.09393310546875,
+      284.30242919921875
+    ],
+    "yolo_confidence": 0.8591866493225098,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      290.9930114746094,
+      242.4475555419922,
+      340.6591491699219,
+      299.92034912109375
+    ],
+    "yolo_confidence": 0.9002524614334106,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      281.45501708984375,
+      203.63104248046875,
+      390.265625,
+      314.1591796875
+    ],
+    "yolo_confidence": 0.9592894315719604,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "meningioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      284.71331787109375,
+      210.97622680664062,
+      364.51416015625,
+      278.6576843261719
+    ],
+    "yolo_confidence": 0.8617343306541443,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      286.58856201171875,
+      346.6256408691406,
+      378.00958251953125,
+      449.4678649902344
+    ],
+    "yolo_confidence": 0.9172361493110657,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      261.7690734863281,
+      245.01165771484375,
+      322.3282775878906,
+      294.55364990234375
+    ],
+    "yolo_confidence": 0.78291255235672,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      278.94921875,
+      222.87875366210938,
+      337.218017578125,
+      283.6043395996094
+    ],
+    "yolo_confidence": 0.8007625937461853,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      281.1581115722656,
+      226.9130096435547,
+      346.9936828613281,
+      286.49774169921875
+    ],
+    "yolo_confidence": 0.9025460481643677,
+    "classification": {
+      "resnet50": "meningioma",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      277.74383544921875,
+      308.5111083984375,
+      343.9898681640625,
+      379.3673095703125
+    ],
+    "yolo_confidence": 0.8545044660568237,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      293.8441467285156,
+      327.35955810546875,
+      338.8728942871094,
+      376.5430908203125
+    ],
+    "yolo_confidence": 0.8443991541862488,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      289.66522216796875,
+      291.36181640625,
+      343.31292724609375,
+      330.5416259765625
+    ],
+    "yolo_confidence": 0.8266989588737488,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      294.91790771484375,
+      364.6573791503906,
+      364.06732177734375,
+      402.9963684082031
+    ],
+    "yolo_confidence": 0.7719692587852478,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      287.7830810546875,
+      339.6335144042969,
+      329.580322265625,
+      390.6707458496094
+    ],
+    "yolo_confidence": 0.8115068674087524,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      274.18536376953125,
+      212.58737182617188,
+      354.45904541015625,
+      287.5549621582031
+    ],
+    "yolo_confidence": 0.9077751040458679,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      276.24224853515625,
+      214.853515625,
+      348.14776611328125,
+      282.7198486328125
+    ],
+    "yolo_confidence": 0.8642457127571106,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      295.8121337890625,
+      200.47396850585938,
+      344.8082275390625,
+      243.65969848632812
+    ],
+    "yolo_confidence": 0.7542135715484619,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      288.17108154296875,
+      217.91796875,
+      352.47174072265625,
+      289.3160400390625
+    ],
+    "yolo_confidence": 0.8997889161109924,
+    "classification": {
+      "resnet50": "glioma",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      291.61724853515625,
+      255.89193725585938,
+      348.33673095703125,
+      303.2544860839844
+    ],
+    "yolo_confidence": 0.8705549836158752,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      274.37506103515625,
+      236.2013702392578,
+      374.6090087890625,
+      338.98187255859375
+    ],
+    "yolo_confidence": 0.9080228805541992,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      286.7257385253906,
+      340.13800048828125,
+      361.3336486816406,
+      429.74359130859375
+    ],
+    "yolo_confidence": 0.8956977725028992,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "meningioma",
+      "efficientnet_b0": "glioma"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      279.130859375,
+      333.5132141113281,
+      376.829345703125,
+      426.5882873535156
+    ],
+    "yolo_confidence": 0.8995867967605591,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "no_tumor"
+    },
+    "target": "pituitary"
+  },
+  {
+    "yolo_bbox": [
+      276.7711181640625,
+      351.7376708984375,
+      342.0977783203125,
+      434.435791015625
+    ],
+    "yolo_confidence": 0.8838942646980286,
+    "classification": {
+      "resnet50": "pituitary",
+      "mobilenet_v2": "pituitary",
+      "efficientnet_b0": "pituitary"
     },
     "target": "pituitary"
   }

@@ -38,7 +38,6 @@ class YoloTarget:
 
 class _YOLOTransform:
     """Picklable transform for BrainTumorDataset — module-level for Windows spawn."""
-
     def __init__(self, image_size: int, augment: bool) -> None:
         self.image_size = image_size
         self.augment = augment
@@ -61,7 +60,6 @@ class BrainTumorDataset(Dataset):
         image: Float tensor shaped [3, H, W], scaled to [0, 1]
         target: dict with normalized YOLO boxes [N, 4] and class labels [N]
     """
-
     def __init__(
         self,
         root_dir: str | Path,
@@ -118,7 +116,6 @@ class BrainTumorDataset(Dataset):
 
 class _ROITransform:
     """Picklable transform for ROIDataset — defined at module level for Windows spawn."""
-
     def __init__(self, roi_size: int, augment: bool) -> None:
         self.roi_size = roi_size
         self.augment = augment
@@ -189,51 +186,36 @@ class _ROITransform:
                 sigma = random.uniform(0.5, 1.5)
                 tensor = _gaussian_blur(tensor, kernel_size, sigma)
 
-            # Cutout — forces model to not rely on single region
-            if random.random() < 0.5:
-                cutout_size = int(self.roi_size * 0.12)
-                cx = random.randint(0, self.roi_size - cutout_size)
-                cy = random.randint(0, self.roi_size - cutout_size)
-                tensor[:, cy:cy + cutout_size, cx:cx + cutout_size] = 0.0
-
-            # Gaussian blur — simulates MRI resolution differences
-            if random.random() < 0.3:
-                kernel_size = random.choice([3, 5])
-                sigma = random.uniform(0.5, 1.5)
-                tensor = _gaussian_blur(tensor, kernel_size, sigma)
 
         return (tensor - IMAGENET_MEAN) / IMAGENET_STD
     
-
 def _gaussian_blur(tensor: torch.Tensor, kernel_size: int, sigma: float) -> torch.Tensor:
-        channels = tensor.shape[0]
-        coords = torch.arange(kernel_size, dtype=torch.float32) - kernel_size // 2
-        kernel_1d = torch.exp(-(coords ** 2) / (2 * sigma ** 2))
-        kernel_1d /= kernel_1d.sum()
-        kernel_2d = kernel_1d[:, None] * kernel_1d[None, :]
-        kernel_2d = kernel_2d.expand(channels, 1, kernel_size, kernel_size)
-        padding = kernel_size // 2
-        import torch.nn.functional as F
-        return F.conv2d(tensor.unsqueeze(0), kernel_2d, padding=padding, groups=channels).squeeze(0).clamp(0.0, 1.0)
+    channels = tensor.shape[0]
+    coords = torch.arange(kernel_size, dtype=torch.float32, device=tensor.device) - kernel_size // 2
+    kernel_1d = torch.exp(-(coords ** 2) / (2 * sigma ** 2))
+    kernel_1d /= kernel_1d.sum()
+    kernel_2d = kernel_1d[:, None] * kernel_1d[None, :]
+    kernel_2d = kernel_2d.expand(channels, 1, kernel_size, kernel_size).contiguous()
+    padding = kernel_size // 2
+    import torch.nn.functional as F
+    return F.conv2d(tensor.unsqueeze(0), kernel_2d, padding=padding, groups=channels).squeeze(0).clamp(0.0, 1.0)
     
 def _elastic_deform(tensor: torch.Tensor, alpha: float = 20.0, sigma: float = 5.0) -> torch.Tensor:
     import torch.nn.functional as F
     _, h, w = tensor.shape
-    dx = torch.randn(1, 1, h, w) * alpha
-    dy = torch.randn(1, 1, h, w) * alpha
-    # Smooth the displacement fields
-    kernel_size = int(6 * sigma + 1) | 1  # force odd
+    dx = torch.randn(1, 1, h, w, device=tensor.device) * alpha
+    dy = torch.randn(1, 1, h, w, device=tensor.device) * alpha
+    kernel_size = int(6 * sigma + 1) | 1
     pad = kernel_size // 2
-    k1d = torch.arange(kernel_size, dtype=torch.float32) - pad
+    k1d = torch.arange(kernel_size, dtype=torch.float32, device=tensor.device) - pad
     k1d = torch.exp(-k1d**2 / (2 * sigma**2))
     k1d /= k1d.sum()
-    k2d = (k1d[:, None] * k1d[None, :]).expand(1, 1, -1, -1)
+    k2d = (k1d[:, None] * k1d[None, :]).expand(1, 1, -1, -1).contiguous()  # fix here
     dx = F.conv2d(dx, k2d, padding=pad)
     dy = F.conv2d(dy, k2d, padding=pad)
-    # Build sampling grid
     grid_y, grid_x = torch.meshgrid(
-        torch.linspace(-1, 1, h),
-        torch.linspace(-1, 1, w),
+        torch.linspace(-1, 1, h, device=tensor.device),
+        torch.linspace(-1, 1, w, device=tensor.device),
         indexing="ij",
     )
     grid_x = (grid_x + dx.squeeze() / w).clamp(-1, 1)
@@ -264,7 +246,6 @@ class ROIDataset(Dataset):
         roi_dataset/train/pituitary/*.jpg
         roi_dataset/train/no_tumor/*.jpg
     """
-
     def __init__(
         self,
         root_dir: str | Path,
@@ -312,8 +293,6 @@ class ROIDataset(Dataset):
         image = Image.open(image_path).convert("RGB")
         return self.transform(image), label
     
-
-
 def read_yolo_label(label_path: str | Path) -> tuple[torch.Tensor, torch.Tensor]:
     """
     Read one YOLO label file.
@@ -341,20 +320,17 @@ def read_yolo_label(label_path: str | Path) -> tuple[torch.Tensor, torch.Tensor]
 
     return torch.tensor(boxes, dtype=torch.float32), torch.tensor(labels, dtype=torch.long)
 
-
 def normalize_split(split: str) -> str:
     normalized = SPLIT_ALIASES.get(split.lower(), split.lower())
     if normalized not in SPLITS:
         raise ValueError(f"Unknown split {split!r}. Expected one of {SPLITS} or val.")
     return normalized
 
-
 def yolo_collate_fn(
     batch: list[tuple[torch.Tensor, dict[str, Any]]]
 ) -> tuple[torch.Tensor, list[dict[str, Any]]]:
     images, targets = zip(*batch)
     return torch.stack(list(images), dim=0), list(targets)
-
 
 def load_yolo_dataset(config: dict[str, Any]) -> dict[str, DataLoader]:
     """
@@ -367,7 +343,7 @@ def load_yolo_dataset(config: dict[str, Any]) -> dict[str, DataLoader]:
     dataset_path = config.get("dataset_path", "./dataset/")
     image_size = int(config.get("image_size", 640))
     batch_size = int(config.get("batch_size", 32))
-    num_workers = int(config.get("num_workers", 0))
+    num_workers = int(config.get("num_workers", 8))
     pin_memory = bool(config.get("pin_memory", torch.cuda.is_available()))
 
     loaders: dict[str, DataLoader] = {}
@@ -383,7 +359,6 @@ def load_yolo_dataset(config: dict[str, Any]) -> dict[str, DataLoader]:
         )
     return loaders
 
-
 def load_roi_dataset(config: dict[str, Any]) -> tuple[DataLoader, DataLoader, DataLoader]:
     """Return train, validation, and test DataLoaders for classifier training."""
 
@@ -391,7 +366,7 @@ def load_roi_dataset(config: dict[str, Any]) -> tuple[DataLoader, DataLoader, Da
     classes = config.get("classes", DEFAULT_CLASSES)
     roi_size = int(config.get("roi_size", 224))
     batch_size = int(config.get("batch_size", 32))
-    num_workers = int(config.get("num_workers", 0))
+    num_workers = int(config.get("num_workers", 8))
     pin_memory = bool(config.get("pin_memory", torch.cuda.is_available()))
 
     datasets = {
@@ -421,7 +396,6 @@ def load_roi_dataset(config: dict[str, Any]) -> tuple[DataLoader, DataLoader, Da
             pin_memory=pin_memory,
         ),
     )
-
 
 def compute_class_weights(
     train_dir: str | Path,
@@ -461,7 +435,6 @@ def _count_images(directory: Path) -> int:
         if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS
     )
 
-
 def _apply_yolo_augmentation(
     image: Image.Image,
     boxes: torch.Tensor,
@@ -484,7 +457,6 @@ def _apply_yolo_augmentation(
     image = ImageEnhance.Contrast(image).enhance(contrast)
     return image, boxes
 
-
 def _flip_boxes_horizontal(boxes: torch.Tensor) -> torch.Tensor:
     if boxes.numel() == 0:
         return boxes
@@ -499,7 +471,6 @@ def _flip_boxes_vertical(boxes: torch.Tensor) -> torch.Tensor:
     flipped = boxes.clone()
     flipped[:, 1] = 1.0 - flipped[:, 1]
     return flipped
-
 
 def _rotate_boxes(
     boxes: torch.Tensor,
@@ -538,7 +509,6 @@ def _rotate_boxes(
     clipped[:, [1, 3]] = clipped[:, [1, 3]].clamp(0, height)
     return _xyxy_to_xywhn(clipped, width, height)
 
-
 def _xywhn_to_xyxy(boxes: torch.Tensor, width: int, height: int) -> torch.Tensor:
     converted = boxes.clone()
     converted[:, 0] = (boxes[:, 0] - boxes[:, 2] / 2.0) * width
@@ -547,7 +517,6 @@ def _xywhn_to_xyxy(boxes: torch.Tensor, width: int, height: int) -> torch.Tensor
     converted[:, 3] = (boxes[:, 1] + boxes[:, 3] / 2.0) * height
     return converted
 
-
 def _xyxy_to_xywhn(boxes: torch.Tensor, width: int, height: int) -> torch.Tensor:
     converted = boxes.clone()
     converted[:, 0] = ((boxes[:, 0] + boxes[:, 2]) / 2.0) / width
@@ -555,7 +524,6 @@ def _xyxy_to_xywhn(boxes: torch.Tensor, width: int, height: int) -> torch.Tensor
     converted[:, 2] = (boxes[:, 2] - boxes[:, 0]).clamp(min=0) / width
     converted[:, 3] = (boxes[:, 3] - boxes[:, 1]).clamp(min=0) / height
     return converted.clamp(0.0, 1.0)
-
 
 def _to_tensor(image: Image.Image) -> torch.Tensor:
     array = np.asarray(image, dtype=np.float32) / 255.0

@@ -97,13 +97,15 @@ class _C3k2WithCBAM(nn.Module):
         return self.cbam(self.c3k2(x))
     
     def __getattr__(self, name: str):
-        # Forward any ultralytics metadata lookups (f, i, type, np, stride…)
-        # to the wrapped C3k2 layer, but only AFTER nn.Module's own __getattr__
-        # has already failed (which is what brings us here).
         try:
             return super().__getattr__(name)
         except AttributeError:
-            return getattr(self.c3k2, name)
+            pass
+        # Access c3k2 directly from __dict__ to avoid recursion
+        c3k2 = self.__dict__.get('_modules', {}).get('c3k2')
+        if c3k2 is not None:
+            return getattr(c3k2, name)
+        raise AttributeError(f"'{type(self).__name__}' has no attribute '{name}'")
 
 
 from ultralytics.nn import tasks as _ult_tasks
@@ -148,11 +150,11 @@ def _patched_parse_model(d, ch, verbose=True):
                             setattr(wrapper, attr, getattr(original, attr))
                     seq._modules[key] = wrapper
                 
-            print("\n[CBAM] Verification of active layers:")
-            for key, module in seq._modules.items():
-                if isinstance(module, _C3k2WithCBAM):
-                    print(f"  Layer {key}: _C3k2WithCBAM ✓ (CBAM active)")
-            print()
+        print("\n[CBAM] Verification of active layers:")
+        for key, module in seq._modules.items():
+            if isinstance(module, _C3k2WithCBAM):
+                print(f"  Layer {key}: _C3k2WithCBAM ✓ (CBAM active)")
+        print()
 
     return result
 
@@ -161,10 +163,12 @@ _ult_tasks.parse_model = _patched_parse_model
 class TumorLocator:
     def __init__(self, config: dict[str, Any]) -> None:
         self.config = config
-        self.model_name = config.get("yolo_model", "yolo11n.pt")
+        self.model_name = config.get("yolo_model", "yolo11n-cbam.yaml")
         self.conf_thresh = float(config.get("yolo_conf_thresh", 0.45))
         self.iou_thresh = float(config.get("yolo_iou_thresh", 0.50))
         self.image_size = int(config.get("image_size", 640))
+        weights = str(config.get("yolo_weights") or self.model_name)
+        print(f"  [TumorLocator] Loading weights: {weights}")
         self.model = self._load_yolo_model(str(config.get("yolo_weights") or self.model_name))
         
 
@@ -483,7 +487,13 @@ class TumorClassifier:
             history,
             early_stopping,
         )
-
+        if early_stopping.best_state_dict is not None:
+            self.model.load_state_dict(early_stopping.best_state_dict)
+            print(
+                f"  [{self.model_name}] Restored best validation checkpoint "
+                f"from epoch {early_stopping.best_epoch} "
+                f"(val_loss={early_stopping.best_loss:.4f})"
+            )
         self._unfreeze_top_blocks()
         early_stopping.reset_for_next_stage(self.model)
         optimizer = torch.optim.AdamW(
@@ -679,13 +689,7 @@ class BrainTumorPipeline:
     def run(self, image: Image.Image | str | Path) -> dict[str, Any]:
         pil_image = Image.open(image).convert("RGB") if isinstance(image, (str, Path)) else image.convert("RGB")
         detection = self.locator.detect(pil_image)
-        if detection is None and bool(self.config.get("no_tumor_fallback", True)):
-            return {
-                "yolo_bbox": None,
-                "yolo_confidence": None,
-                "classification": {name: "no_tumor" for name in self.classifiers},
-            }
-
+        
         if detection is None:
             crop = self.extractor._center_crop(pil_image)
             bbox = None
